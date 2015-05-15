@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("sinema_bilet_satisi_EN_SON")]
+[assembly: AssemblyTitle("Sinema_Bilet_Satis")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Microsoft")]
-[assembly: AssemblyProduct("sinema_bilet_satisi_EN_SON")]
+[assembly: AssemblyProduct("Sinema_Bilet_Satis")]
 [assembly: AssemblyCopyright("Copyright © Microsoft 2015")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("dccc016c-1d19-4efc-89ec-d6b36337d871")]
+[assembly: Guid("6864adcd-c3ac-4e78-853d-d907f0da277a")]
 
 // Version information for an assembly consists of the following four values:
 //

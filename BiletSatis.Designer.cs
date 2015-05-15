@@ -1,4 +1,4 @@
-﻿namespace sinema_bilet_satisi_EN_SON
+﻿namespace Sinema_Bilet_Satis
 {
     partial class BiletSatis
     {
@@ -30,1025 +30,217 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(BiletSatis));
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.G6 = new System.Windows.Forms.Button();
-            this.I1 = new System.Windows.Forms.Button();
-            this.I2 = new System.Windows.Forms.Button();
-            this.button71 = new System.Windows.Forms.Button();
-            this.I3 = new System.Windows.Forms.Button();
-            this.Label24 = new System.Windows.Forms.Label();
-            this.I4 = new System.Windows.Forms.Button();
-            this.Label25 = new System.Windows.Forms.Label();
-            this.I5 = new System.Windows.Forms.Button();
-            this.Label26 = new System.Windows.Forms.Label();
-            this.H1 = new System.Windows.Forms.Button();
-            this.Label27 = new System.Windows.Forms.Label();
-            this.H2 = new System.Windows.Forms.Button();
-            this.Label7 = new System.Windows.Forms.Label();
-            this.Label20 = new System.Windows.Forms.Label();
-            this.Label8 = new System.Windows.Forms.Label();
-            this.H3 = new System.Windows.Forms.Button();
-            this.Label9 = new System.Windows.Forms.Label();
-            this.Label21 = new System.Windows.Forms.Label();
-            this.Label10 = new System.Windows.Forms.Label();
-            this.H4 = new System.Windows.Forms.Button();
-            this.Label11 = new System.Windows.Forms.Label();
-            this.Label22 = new System.Windows.Forms.Label();
-            this.H5 = new System.Windows.Forms.Button();
-            this.Label23 = new System.Windows.Forms.Label();
-            this.G1 = new System.Windows.Forms.Button();
-            this.A6 = new System.Windows.Forms.Button();
-            this.G2 = new System.Windows.Forms.Button();
-            this.A3 = new System.Windows.Forms.Button();
-            this.G3 = new System.Windows.Forms.Button();
-            this.B6 = new System.Windows.Forms.Button();
-            this.G4 = new System.Windows.Forms.Button();
-            this.Label4 = new System.Windows.Forms.Label();
-            this.A1 = new System.Windows.Forms.Button();
-            this.Label3 = new System.Windows.Forms.Label();
-            this.G5 = new System.Windows.Forms.Button();
-            this.Label2 = new System.Windows.Forms.Label();
-            this.C6 = new System.Windows.Forms.Button();
-            this.Label1 = new System.Windows.Forms.Label();
-            this.F1 = new System.Windows.Forms.Button();
-            this.A2 = new System.Windows.Forms.Button();
-            this.F2 = new System.Windows.Forms.Button();
-            this.D6 = new System.Windows.Forms.Button();
-            this.F3 = new System.Windows.Forms.Button();
-            this.A4 = new System.Windows.Forms.Button();
-            this.F4 = new System.Windows.Forms.Button();
-            this.B5 = new System.Windows.Forms.Button();
-            this.F5 = new System.Windows.Forms.Button();
-            this.A5 = new System.Windows.Forms.Button();
-            this.E1 = new System.Windows.Forms.Button();
-            this.B4 = new System.Windows.Forms.Button();
-            this.E2 = new System.Windows.Forms.Button();
-            this.B3 = new System.Windows.Forms.Button();
-            this.E3 = new System.Windows.Forms.Button();
-            this.B2 = new System.Windows.Forms.Button();
-            this.E4 = new System.Windows.Forms.Button();
-            this.B1 = new System.Windows.Forms.Button();
-            this.E5 = new System.Windows.Forms.Button();
-            this.C5 = new System.Windows.Forms.Button();
-            this.I6 = new System.Windows.Forms.Button();
-            this.C4 = new System.Windows.Forms.Button();
-            this.H6 = new System.Windows.Forms.Button();
-            this.C3 = new System.Windows.Forms.Button();
-            this.F6 = new System.Windows.Forms.Button();
-            this.C2 = new System.Windows.Forms.Button();
-            this.E6 = new System.Windows.Forms.Button();
-            this.C1 = new System.Windows.Forms.Button();
-            this.D1 = new System.Windows.Forms.Button();
-            this.D5 = new System.Windows.Forms.Button();
-            this.D2 = new System.Windows.Forms.Button();
-            this.D4 = new System.Windows.Forms.Button();
-            this.D3 = new System.Windows.Forms.Button();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.PERDE = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.grpBoxBilet_Satis = new System.Windows.Forms.GroupBox();
+            this.dateTarih = new System.Windows.Forms.DateTimePicker();
+            this.label15 = new System.Windows.Forms.Label();
+            this.txtSeans = new System.Windows.Forms.TextBox();
+            this.txtSalonAdi = new System.Windows.Forms.TextBox();
             this.LblFilmAdi = new System.Windows.Forms.Label();
             this.txtFilmAdi = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.label16 = new System.Windows.Forms.Label();
             this.txtFiyat = new System.Windows.Forms.TextBox();
             this.Rezervasyon = new System.Windows.Forms.Button();
             this.BiletSat = new System.Windows.Forms.Button();
-            this.label15 = new System.Windows.Forms.Label();
             this.radioTam = new System.Windows.Forms.RadioButton();
             this.radioOgrenci = new System.Windows.Forms.RadioButton();
             this.label14 = new System.Windows.Forms.Label();
-            this.comboSeans = new System.Windows.Forms.ComboBox();
-            this.comboSalon = new System.Windows.Forms.ComboBox();
             this.label12 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.txtKoltuk = new System.Windows.Forms.TextBox();
             this.txtAdSoyad = new System.Windows.Forms.TextBox();
-            this.PictureBox1 = new System.Windows.Forms.PictureBox();
-            this.button2 = new System.Windows.Forms.Button();
-            this.LblFilmAdı = new System.Windows.Forms.Label();
+            this.Bilet_Iptal = new System.Windows.Forms.Button();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.label26 = new System.Windows.Forms.Label();
+            this.label27 = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
+            this.label19 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label20 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
-            this.SaatGosterici = new System.Windows.Forms.Timer(this.components);
-            this.LblSaat = new System.Windows.Forms.Label();
-            this.button3 = new System.Windows.Forms.Button();
+            this.label21 = new System.Windows.Forms.Label();
+            this.Label24 = new System.Windows.Forms.Label();
+            this.Label25 = new System.Windows.Forms.Label();
+            this.Label7 = new System.Windows.Forms.Label();
+            this.label23 = new System.Windows.Forms.Label();
+            this.Label8 = new System.Windows.Forms.Label();
+            this.label22 = new System.Windows.Forms.Label();
+            this.Label9 = new System.Windows.Forms.Label();
+            this.Label10 = new System.Windows.Forms.Label();
+            this.Label11 = new System.Windows.Forms.Label();
+            this.btn49 = new System.Windows.Forms.Button();
+            this.btn42 = new System.Windows.Forms.Button();
+            this.btn47 = new System.Windows.Forms.Button();
+            this.btn35 = new System.Windows.Forms.Button();
+            this.btn46 = new System.Windows.Forms.Button();
+            this.btn41 = new System.Windows.Forms.Button();
+            this.btn45 = new System.Windows.Forms.Button();
+            this.btn28 = new System.Windows.Forms.Button();
+            this.btn44 = new System.Windows.Forms.Button();
+            this.btn43 = new System.Windows.Forms.Button();
+            this.btn40 = new System.Windows.Forms.Button();
+            this.btn48 = new System.Windows.Forms.Button();
+            this.btn34 = new System.Windows.Forms.Button();
+            this.btn39 = new System.Windows.Forms.Button();
+            this.btn21 = new System.Windows.Forms.Button();
+            this.btn38 = new System.Windows.Forms.Button();
+            this.btn33 = new System.Windows.Forms.Button();
+            this.btn37 = new System.Windows.Forms.Button();
+            this.btn36 = new System.Windows.Forms.Button();
+            this.btn27 = new System.Windows.Forms.Button();
+            this.btn32 = new System.Windows.Forms.Button();
+            this.btn14 = new System.Windows.Forms.Button();
+            this.btn31 = new System.Windows.Forms.Button();
+            this.btn26 = new System.Windows.Forms.Button();
+            this.btn30 = new System.Windows.Forms.Button();
+            this.btn29 = new System.Windows.Forms.Button();
+            this.btn20 = new System.Windows.Forms.Button();
+            this.btn25 = new System.Windows.Forms.Button();
+            this.btn13 = new System.Windows.Forms.Button();
+            this.btn23 = new System.Windows.Forms.Button();
+            this.btn22 = new System.Windows.Forms.Button();
+            this.btn19 = new System.Windows.Forms.Button();
+            this.btn24 = new System.Windows.Forms.Button();
+            this.btn7 = new System.Windows.Forms.Button();
+            this.btn18 = new System.Windows.Forms.Button();
+            this.btn11 = new System.Windows.Forms.Button();
+            this.btn17 = new System.Windows.Forms.Button();
+            this.btn6 = new System.Windows.Forms.Button();
+            this.btn16 = new System.Windows.Forms.Button();
+            this.btn15 = new System.Windows.Forms.Button();
+            this.btn10 = new System.Windows.Forms.Button();
+            this.btn5 = new System.Windows.Forms.Button();
+            this.btn9 = new System.Windows.Forms.Button();
+            this.btn4 = new System.Windows.Forms.Button();
+            this.btn8 = new System.Windows.Forms.Button();
+            this.btn3 = new System.Windows.Forms.Button();
+            this.btn12 = new System.Windows.Forms.Button();
+            this.btn2 = new System.Windows.Forms.Button();
+            this.btn1 = new System.Windows.Forms.Button();
+            this.txtKoltukIptal = new System.Windows.Forms.TextBox();
+            this.lblSaat = new System.Windows.Forms.Label();
+            this.Saat_Gosterici = new System.Windows.Forms.Timer(this.components);
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.rezerve_iptal = new System.Windows.Forms.Button();
+            this.label28 = new System.Windows.Forms.Label();
+            this.label29 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
+            this.grpBoxBilet_Satis.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.PictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // groupBox1
-            // 
-            this.groupBox1.BackColor = System.Drawing.Color.Transparent;
-            this.groupBox1.Controls.Add(this.G6);
-            this.groupBox1.Controls.Add(this.I1);
-            this.groupBox1.Controls.Add(this.I2);
-            this.groupBox1.Controls.Add(this.button71);
-            this.groupBox1.Controls.Add(this.I3);
-            this.groupBox1.Controls.Add(this.Label24);
-            this.groupBox1.Controls.Add(this.I4);
-            this.groupBox1.Controls.Add(this.Label25);
-            this.groupBox1.Controls.Add(this.I5);
-            this.groupBox1.Controls.Add(this.Label26);
-            this.groupBox1.Controls.Add(this.H1);
-            this.groupBox1.Controls.Add(this.Label27);
-            this.groupBox1.Controls.Add(this.H2);
-            this.groupBox1.Controls.Add(this.Label7);
-            this.groupBox1.Controls.Add(this.Label20);
-            this.groupBox1.Controls.Add(this.Label8);
-            this.groupBox1.Controls.Add(this.H3);
-            this.groupBox1.Controls.Add(this.Label9);
-            this.groupBox1.Controls.Add(this.Label21);
-            this.groupBox1.Controls.Add(this.Label10);
-            this.groupBox1.Controls.Add(this.H4);
-            this.groupBox1.Controls.Add(this.Label11);
-            this.groupBox1.Controls.Add(this.Label22);
-            this.groupBox1.Controls.Add(this.H5);
-            this.groupBox1.Controls.Add(this.Label23);
-            this.groupBox1.Controls.Add(this.G1);
-            this.groupBox1.Controls.Add(this.A6);
-            this.groupBox1.Controls.Add(this.G2);
-            this.groupBox1.Controls.Add(this.A3);
-            this.groupBox1.Controls.Add(this.G3);
-            this.groupBox1.Controls.Add(this.B6);
-            this.groupBox1.Controls.Add(this.G4);
-            this.groupBox1.Controls.Add(this.Label4);
-            this.groupBox1.Controls.Add(this.A1);
-            this.groupBox1.Controls.Add(this.Label3);
-            this.groupBox1.Controls.Add(this.G5);
-            this.groupBox1.Controls.Add(this.Label2);
-            this.groupBox1.Controls.Add(this.C6);
-            this.groupBox1.Controls.Add(this.Label1);
-            this.groupBox1.Controls.Add(this.F1);
-            this.groupBox1.Controls.Add(this.A2);
-            this.groupBox1.Controls.Add(this.F2);
-            this.groupBox1.Controls.Add(this.D6);
-            this.groupBox1.Controls.Add(this.F3);
-            this.groupBox1.Controls.Add(this.A4);
-            this.groupBox1.Controls.Add(this.F4);
-            this.groupBox1.Controls.Add(this.B5);
-            this.groupBox1.Controls.Add(this.F5);
-            this.groupBox1.Controls.Add(this.A5);
-            this.groupBox1.Controls.Add(this.E1);
-            this.groupBox1.Controls.Add(this.B4);
-            this.groupBox1.Controls.Add(this.E2);
-            this.groupBox1.Controls.Add(this.B3);
-            this.groupBox1.Controls.Add(this.E3);
-            this.groupBox1.Controls.Add(this.B2);
-            this.groupBox1.Controls.Add(this.E4);
-            this.groupBox1.Controls.Add(this.B1);
-            this.groupBox1.Controls.Add(this.E5);
-            this.groupBox1.Controls.Add(this.C5);
-            this.groupBox1.Controls.Add(this.I6);
-            this.groupBox1.Controls.Add(this.C4);
-            this.groupBox1.Controls.Add(this.H6);
-            this.groupBox1.Controls.Add(this.C3);
-            this.groupBox1.Controls.Add(this.F6);
-            this.groupBox1.Controls.Add(this.C2);
-            this.groupBox1.Controls.Add(this.E6);
-            this.groupBox1.Controls.Add(this.C1);
-            this.groupBox1.Controls.Add(this.D1);
-            this.groupBox1.Controls.Add(this.D5);
-            this.groupBox1.Controls.Add(this.D2);
-            this.groupBox1.Controls.Add(this.D4);
-            this.groupBox1.Controls.Add(this.D3);
-            this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.groupBox1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.groupBox1.Location = new System.Drawing.Point(15, 60);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(507, 473);
-            this.groupBox1.TabIndex = 0;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Koltuklar";
-            // 
-            // G6
-            // 
-            this.G6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(1)))));
-            this.G6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.G6.Location = new System.Drawing.Point(407, 118);
-            this.G6.Name = "G6";
-            this.G6.Size = new System.Drawing.Size(53, 38);
-            this.G6.TabIndex = 321;
-            this.G6.Text = "6";
-            this.G6.UseVisualStyleBackColor = false;
-            // 
-            // I1
-            // 
-            this.I1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(1)))));
-            this.I1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.I1.Location = new System.Drawing.Point(60, 31);
-            this.I1.Name = "I1";
-            this.I1.Size = new System.Drawing.Size(53, 38);
-            this.I1.TabIndex = 294;
-            this.I1.Text = "1";
-            this.I1.UseVisualStyleBackColor = false;
-            // 
-            // I2
-            // 
-            this.I2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(1)))));
-            this.I2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.I2.Location = new System.Drawing.Point(119, 31);
-            this.I2.Name = "I2";
-            this.I2.Size = new System.Drawing.Size(53, 38);
-            this.I2.TabIndex = 295;
-            this.I2.Text = "2";
-            this.I2.UseVisualStyleBackColor = false;
-            // 
-            // button71
-            // 
-            this.button71.BackColor = System.Drawing.Color.Gainsboro;
-            this.button71.Enabled = false;
-            this.button71.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button71.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button71.Location = new System.Drawing.Point(22, 427);
-            this.button71.Name = "button71";
-            this.button71.Size = new System.Drawing.Size(464, 31);
-            this.button71.TabIndex = 365;
-            this.button71.TabStop = false;
-            this.button71.Text = "P E R D E";
-            this.button71.UseVisualStyleBackColor = false;
-            // 
-            // I3
-            // 
-            this.I3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(1)))));
-            this.I3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.I3.Location = new System.Drawing.Point(203, 31);
-            this.I3.Name = "I3";
-            this.I3.Size = new System.Drawing.Size(53, 38);
-            this.I3.TabIndex = 296;
-            this.I3.Text = "3";
-            this.I3.UseVisualStyleBackColor = false;
-            // 
-            // Label24
-            // 
-            this.Label24.AutoSize = true;
-            this.Label24.BackColor = System.Drawing.Color.Transparent;
-            this.Label24.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.Label24.Location = new System.Drawing.Point(466, 177);
-            this.Label24.Name = "Label24";
-            this.Label24.Size = new System.Drawing.Size(17, 18);
-            this.Label24.TabIndex = 364;
-            this.Label24.Text = "F";
-            // 
-            // I4
-            // 
-            this.I4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(1)))));
-            this.I4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.I4.Location = new System.Drawing.Point(261, 31);
-            this.I4.Name = "I4";
-            this.I4.Size = new System.Drawing.Size(53, 38);
-            this.I4.TabIndex = 297;
-            this.I4.Text = "4";
-            this.I4.UseVisualStyleBackColor = false;
-            // 
-            // Label25
-            // 
-            this.Label25.AutoSize = true;
-            this.Label25.BackColor = System.Drawing.Color.Transparent;
-            this.Label25.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.Label25.Location = new System.Drawing.Point(466, 133);
-            this.Label25.Name = "Label25";
-            this.Label25.Size = new System.Drawing.Size(20, 18);
-            this.Label25.TabIndex = 363;
-            this.Label25.Text = "G";
-            // 
-            // I5
-            // 
-            this.I5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(1)))));
-            this.I5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.I5.Location = new System.Drawing.Point(348, 31);
-            this.I5.Name = "I5";
-            this.I5.Size = new System.Drawing.Size(53, 38);
-            this.I5.TabIndex = 298;
-            this.I5.Text = "5";
-            this.I5.UseVisualStyleBackColor = false;
-            // 
-            // Label26
-            // 
-            this.Label26.AutoSize = true;
-            this.Label26.BackColor = System.Drawing.Color.Transparent;
-            this.Label26.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.Label26.Location = new System.Drawing.Point(466, 89);
-            this.Label26.Name = "Label26";
-            this.Label26.Size = new System.Drawing.Size(19, 18);
-            this.Label26.TabIndex = 362;
-            this.Label26.Text = "H";
-            // 
-            // H1
-            // 
-            this.H1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(1)))));
-            this.H1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.H1.Location = new System.Drawing.Point(60, 75);
-            this.H1.Name = "H1";
-            this.H1.Size = new System.Drawing.Size(53, 38);
-            this.H1.TabIndex = 299;
-            this.H1.Text = "1";
-            this.H1.UseVisualStyleBackColor = false;
-            // 
-            // Label27
-            // 
-            this.Label27.AutoSize = true;
-            this.Label27.BackColor = System.Drawing.Color.Transparent;
-            this.Label27.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.Label27.Location = new System.Drawing.Point(466, 44);
-            this.Label27.Name = "Label27";
-            this.Label27.Size = new System.Drawing.Size(11, 18);
-            this.Label27.TabIndex = 361;
-            this.Label27.Text = "I";
-            // 
-            // H2
-            // 
-            this.H2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(1)))));
-            this.H2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.H2.Location = new System.Drawing.Point(119, 75);
-            this.H2.Name = "H2";
-            this.H2.Size = new System.Drawing.Size(53, 38);
-            this.H2.TabIndex = 300;
-            this.H2.Text = "2";
-            this.H2.UseVisualStyleBackColor = false;
-            // 
-            // Label7
-            // 
-            this.Label7.AutoSize = true;
-            this.Label7.BackColor = System.Drawing.Color.Transparent;
-            this.Label7.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.Label7.Location = new System.Drawing.Point(466, 392);
-            this.Label7.Name = "Label7";
-            this.Label7.Size = new System.Drawing.Size(17, 18);
-            this.Label7.TabIndex = 332;
-            this.Label7.Text = "A";
-            // 
-            // Label20
-            // 
-            this.Label20.AutoSize = true;
-            this.Label20.BackColor = System.Drawing.Color.Transparent;
-            this.Label20.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.Label20.Location = new System.Drawing.Point(18, 177);
-            this.Label20.Name = "Label20";
-            this.Label20.Size = new System.Drawing.Size(17, 18);
-            this.Label20.TabIndex = 360;
-            this.Label20.Text = "F";
-            // 
-            // Label8
-            // 
-            this.Label8.AutoSize = true;
-            this.Label8.BackColor = System.Drawing.Color.Transparent;
-            this.Label8.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.Label8.Location = new System.Drawing.Point(466, 348);
-            this.Label8.Name = "Label8";
-            this.Label8.Size = new System.Drawing.Size(18, 18);
-            this.Label8.TabIndex = 331;
-            this.Label8.Text = "B";
-            // 
-            // H3
-            // 
-            this.H3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(1)))));
-            this.H3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.H3.Location = new System.Drawing.Point(203, 75);
-            this.H3.Name = "H3";
-            this.H3.Size = new System.Drawing.Size(53, 38);
-            this.H3.TabIndex = 301;
-            this.H3.Text = "3";
-            this.H3.UseVisualStyleBackColor = false;
-            // 
-            // Label9
-            // 
-            this.Label9.AutoSize = true;
-            this.Label9.BackColor = System.Drawing.Color.Transparent;
-            this.Label9.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.Label9.Location = new System.Drawing.Point(466, 304);
-            this.Label9.Name = "Label9";
-            this.Label9.Size = new System.Drawing.Size(19, 18);
-            this.Label9.TabIndex = 330;
-            this.Label9.Text = "C";
-            // 
-            // Label21
-            // 
-            this.Label21.AutoSize = true;
-            this.Label21.BackColor = System.Drawing.Color.Transparent;
-            this.Label21.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.Label21.Location = new System.Drawing.Point(18, 133);
-            this.Label21.Name = "Label21";
-            this.Label21.Size = new System.Drawing.Size(20, 18);
-            this.Label21.TabIndex = 359;
-            this.Label21.Text = "G";
-            // 
-            // Label10
-            // 
-            this.Label10.AutoSize = true;
-            this.Label10.BackColor = System.Drawing.Color.Transparent;
-            this.Label10.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.Label10.Location = new System.Drawing.Point(466, 260);
-            this.Label10.Name = "Label10";
-            this.Label10.Size = new System.Drawing.Size(19, 18);
-            this.Label10.TabIndex = 329;
-            this.Label10.Text = "D";
-            // 
-            // H4
-            // 
-            this.H4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(1)))));
-            this.H4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.H4.Location = new System.Drawing.Point(261, 75);
-            this.H4.Name = "H4";
-            this.H4.Size = new System.Drawing.Size(53, 38);
-            this.H4.TabIndex = 302;
-            this.H4.Text = "4";
-            this.H4.UseVisualStyleBackColor = false;
-            // 
-            // Label11
-            // 
-            this.Label11.AutoSize = true;
-            this.Label11.BackColor = System.Drawing.Color.Transparent;
-            this.Label11.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.Label11.Location = new System.Drawing.Point(466, 216);
-            this.Label11.Name = "Label11";
-            this.Label11.Size = new System.Drawing.Size(18, 18);
-            this.Label11.TabIndex = 328;
-            this.Label11.Text = "E";
-            // 
-            // Label22
-            // 
-            this.Label22.AutoSize = true;
-            this.Label22.BackColor = System.Drawing.Color.Transparent;
-            this.Label22.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.Label22.Location = new System.Drawing.Point(18, 89);
-            this.Label22.Name = "Label22";
-            this.Label22.Size = new System.Drawing.Size(19, 18);
-            this.Label22.TabIndex = 358;
-            this.Label22.Text = "H";
-            // 
-            // H5
-            // 
-            this.H5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(1)))));
-            this.H5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.H5.Location = new System.Drawing.Point(348, 75);
-            this.H5.Name = "H5";
-            this.H5.Size = new System.Drawing.Size(53, 38);
-            this.H5.TabIndex = 303;
-            this.H5.Text = "5";
-            this.H5.UseVisualStyleBackColor = false;
-            // 
-            // Label23
-            // 
-            this.Label23.AutoSize = true;
-            this.Label23.BackColor = System.Drawing.Color.Transparent;
-            this.Label23.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.Label23.Location = new System.Drawing.Point(18, 44);
-            this.Label23.Name = "Label23";
-            this.Label23.Size = new System.Drawing.Size(11, 18);
-            this.Label23.TabIndex = 357;
-            this.Label23.Text = "I";
-            // 
-            // G1
-            // 
-            this.G1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(1)))));
-            this.G1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.G1.Location = new System.Drawing.Point(60, 118);
-            this.G1.Name = "G1";
-            this.G1.Size = new System.Drawing.Size(53, 38);
-            this.G1.TabIndex = 304;
-            this.G1.Text = "1";
-            this.G1.UseVisualStyleBackColor = false;
-            // 
-            // A6
-            // 
-            this.A6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(1)))));
-            this.A6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.A6.Location = new System.Drawing.Point(407, 383);
-            this.A6.Name = "A6";
-            this.A6.Size = new System.Drawing.Size(53, 38);
-            this.A6.TabIndex = 356;
-            this.A6.Text = "6";
-            this.A6.UseVisualStyleBackColor = false;
-            // 
-            // G2
-            // 
-            this.G2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(1)))));
-            this.G2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.G2.Location = new System.Drawing.Point(119, 118);
-            this.G2.Name = "G2";
-            this.G2.Size = new System.Drawing.Size(53, 38);
-            this.G2.TabIndex = 305;
-            this.G2.Text = "2";
-            this.G2.UseVisualStyleBackColor = false;
-            // 
-            // A3
-            // 
-            this.A3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(1)))));
-            this.A3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.A3.Location = new System.Drawing.Point(203, 383);
-            this.A3.Name = "A3";
-            this.A3.Size = new System.Drawing.Size(53, 38);
-            this.A3.TabIndex = 350;
-            this.A3.Text = "3";
-            this.A3.UseVisualStyleBackColor = false;
-            // 
-            // G3
-            // 
-            this.G3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(1)))));
-            this.G3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.G3.Location = new System.Drawing.Point(203, 118);
-            this.G3.Name = "G3";
-            this.G3.Size = new System.Drawing.Size(53, 38);
-            this.G3.TabIndex = 306;
-            this.G3.Text = "3";
-            this.G3.UseVisualStyleBackColor = false;
-            // 
-            // B6
-            // 
-            this.B6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(1)))));
-            this.B6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.B6.Location = new System.Drawing.Point(407, 339);
-            this.B6.Name = "B6";
-            this.B6.Size = new System.Drawing.Size(53, 38);
-            this.B6.TabIndex = 355;
-            this.B6.Text = "6";
-            this.B6.UseVisualStyleBackColor = false;
-            // 
-            // G4
-            // 
-            this.G4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(1)))));
-            this.G4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.G4.Location = new System.Drawing.Point(261, 118);
-            this.G4.Name = "G4";
-            this.G4.Size = new System.Drawing.Size(53, 38);
-            this.G4.TabIndex = 307;
-            this.G4.Text = "4";
-            this.G4.UseVisualStyleBackColor = false;
-            // 
-            // Label4
-            // 
-            this.Label4.AutoSize = true;
-            this.Label4.BackColor = System.Drawing.Color.Transparent;
-            this.Label4.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.Label4.Location = new System.Drawing.Point(19, 354);
-            this.Label4.Name = "Label4";
-            this.Label4.Size = new System.Drawing.Size(18, 18);
-            this.Label4.TabIndex = 327;
-            this.Label4.Text = "B";
-            // 
-            // A1
-            // 
-            this.A1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(1)))));
-            this.A1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.A1.Location = new System.Drawing.Point(60, 383);
-            this.A1.Name = "A1";
-            this.A1.Size = new System.Drawing.Size(53, 38);
-            this.A1.TabIndex = 348;
-            this.A1.Text = "1";
-            this.A1.UseVisualStyleBackColor = false;
-            // 
-            // Label3
-            // 
-            this.Label3.AutoSize = true;
-            this.Label3.BackColor = System.Drawing.Color.Transparent;
-            this.Label3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.Label3.Location = new System.Drawing.Point(19, 310);
-            this.Label3.Name = "Label3";
-            this.Label3.Size = new System.Drawing.Size(19, 18);
-            this.Label3.TabIndex = 326;
-            this.Label3.Text = "C";
-            // 
-            // G5
-            // 
-            this.G5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(1)))));
-            this.G5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.G5.Location = new System.Drawing.Point(348, 118);
-            this.G5.Name = "G5";
-            this.G5.Size = new System.Drawing.Size(53, 38);
-            this.G5.TabIndex = 308;
-            this.G5.Text = "5";
-            this.G5.UseVisualStyleBackColor = false;
-            // 
-            // Label2
-            // 
-            this.Label2.AutoSize = true;
-            this.Label2.BackColor = System.Drawing.Color.Transparent;
-            this.Label2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.Label2.Location = new System.Drawing.Point(19, 266);
-            this.Label2.Name = "Label2";
-            this.Label2.Size = new System.Drawing.Size(19, 18);
-            this.Label2.TabIndex = 325;
-            this.Label2.Text = "D";
-            // 
-            // C6
-            // 
-            this.C6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(1)))));
-            this.C6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.C6.Location = new System.Drawing.Point(407, 295);
-            this.C6.Name = "C6";
-            this.C6.Size = new System.Drawing.Size(53, 38);
-            this.C6.TabIndex = 354;
-            this.C6.Text = "6";
-            this.C6.UseVisualStyleBackColor = false;
-            // 
-            // Label1
-            // 
-            this.Label1.AutoSize = true;
-            this.Label1.BackColor = System.Drawing.Color.Transparent;
-            this.Label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.Label1.Location = new System.Drawing.Point(19, 221);
-            this.Label1.Name = "Label1";
-            this.Label1.Size = new System.Drawing.Size(18, 18);
-            this.Label1.TabIndex = 324;
-            this.Label1.Text = "E";
-            // 
-            // F1
-            // 
-            this.F1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(1)))));
-            this.F1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.F1.Location = new System.Drawing.Point(60, 164);
-            this.F1.Name = "F1";
-            this.F1.Size = new System.Drawing.Size(53, 38);
-            this.F1.TabIndex = 309;
-            this.F1.Text = "1";
-            this.F1.UseVisualStyleBackColor = false;
-            // 
-            // A2
-            // 
-            this.A2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(1)))));
-            this.A2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.A2.Location = new System.Drawing.Point(119, 383);
-            this.A2.Name = "A2";
-            this.A2.Size = new System.Drawing.Size(53, 38);
-            this.A2.TabIndex = 349;
-            this.A2.Text = "2";
-            this.A2.UseVisualStyleBackColor = false;
-            // 
-            // F2
-            // 
-            this.F2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(1)))));
-            this.F2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.F2.Location = new System.Drawing.Point(119, 164);
-            this.F2.Name = "F2";
-            this.F2.Size = new System.Drawing.Size(53, 38);
-            this.F2.TabIndex = 310;
-            this.F2.Text = "2";
-            this.F2.UseVisualStyleBackColor = false;
-            // 
-            // D6
-            // 
-            this.D6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(1)))));
-            this.D6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.D6.Location = new System.Drawing.Point(407, 252);
-            this.D6.Name = "D6";
-            this.D6.Size = new System.Drawing.Size(53, 38);
-            this.D6.TabIndex = 353;
-            this.D6.Text = "6";
-            this.D6.UseVisualStyleBackColor = false;
-            // 
-            // F3
-            // 
-            this.F3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(1)))));
-            this.F3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.F3.Location = new System.Drawing.Point(203, 164);
-            this.F3.Name = "F3";
-            this.F3.Size = new System.Drawing.Size(53, 38);
-            this.F3.TabIndex = 311;
-            this.F3.Text = "3";
-            this.F3.UseVisualStyleBackColor = false;
-            // 
-            // A4
-            // 
-            this.A4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(1)))));
-            this.A4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.A4.Location = new System.Drawing.Point(261, 383);
-            this.A4.Name = "A4";
-            this.A4.Size = new System.Drawing.Size(53, 38);
-            this.A4.TabIndex = 351;
-            this.A4.Text = "4";
-            this.A4.UseVisualStyleBackColor = false;
-            // 
-            // F4
-            // 
-            this.F4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(1)))));
-            this.F4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.F4.Location = new System.Drawing.Point(261, 164);
-            this.F4.Name = "F4";
-            this.F4.Size = new System.Drawing.Size(53, 38);
-            this.F4.TabIndex = 312;
-            this.F4.Text = "4";
-            this.F4.UseVisualStyleBackColor = false;
-            // 
-            // B5
-            // 
-            this.B5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(1)))));
-            this.B5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.B5.Location = new System.Drawing.Point(348, 339);
-            this.B5.Name = "B5";
-            this.B5.Size = new System.Drawing.Size(53, 38);
-            this.B5.TabIndex = 347;
-            this.B5.Text = "5";
-            this.B5.UseVisualStyleBackColor = false;
-            // 
-            // F5
-            // 
-            this.F5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(1)))));
-            this.F5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.F5.Location = new System.Drawing.Point(348, 164);
-            this.F5.Name = "F5";
-            this.F5.Size = new System.Drawing.Size(53, 38);
-            this.F5.TabIndex = 313;
-            this.F5.Text = "5";
-            this.F5.UseVisualStyleBackColor = false;
-            // 
-            // A5
-            // 
-            this.A5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(1)))));
-            this.A5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.A5.Location = new System.Drawing.Point(348, 383);
-            this.A5.Name = "A5";
-            this.A5.Size = new System.Drawing.Size(53, 38);
-            this.A5.TabIndex = 352;
-            this.A5.Text = "5";
-            this.A5.UseVisualStyleBackColor = false;
-            // 
-            // E1
-            // 
-            this.E1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(1)))));
-            this.E1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.E1.Location = new System.Drawing.Point(60, 206);
-            this.E1.Name = "E1";
-            this.E1.Size = new System.Drawing.Size(53, 38);
-            this.E1.TabIndex = 314;
-            this.E1.Text = "1";
-            this.E1.UseVisualStyleBackColor = false;
-            // 
-            // B4
-            // 
-            this.B4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(1)))));
-            this.B4.Location = new System.Drawing.Point(261, 339);
-            this.B4.Name = "B4";
-            this.B4.Size = new System.Drawing.Size(53, 38);
-            this.B4.TabIndex = 346;
-            this.B4.Text = "4";
-            this.B4.UseVisualStyleBackColor = false;
-            // 
-            // E2
-            // 
-            this.E2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(1)))));
-            this.E2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.E2.Location = new System.Drawing.Point(119, 206);
-            this.E2.Name = "E2";
-            this.E2.Size = new System.Drawing.Size(53, 38);
-            this.E2.TabIndex = 315;
-            this.E2.Text = "2";
-            this.E2.UseVisualStyleBackColor = false;
-            // 
-            // B3
-            // 
-            this.B3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(1)))));
-            this.B3.Location = new System.Drawing.Point(203, 339);
-            this.B3.Name = "B3";
-            this.B3.Size = new System.Drawing.Size(53, 38);
-            this.B3.TabIndex = 345;
-            this.B3.Text = "3";
-            this.B3.UseVisualStyleBackColor = false;
-            // 
-            // E3
-            // 
-            this.E3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(1)))));
-            this.E3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.E3.Location = new System.Drawing.Point(203, 206);
-            this.E3.Name = "E3";
-            this.E3.Size = new System.Drawing.Size(53, 38);
-            this.E3.TabIndex = 316;
-            this.E3.Text = "3";
-            this.E3.UseVisualStyleBackColor = false;
-            // 
-            // B2
-            // 
-            this.B2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(1)))));
-            this.B2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.B2.Location = new System.Drawing.Point(119, 339);
-            this.B2.Name = "B2";
-            this.B2.Size = new System.Drawing.Size(53, 38);
-            this.B2.TabIndex = 344;
-            this.B2.Text = "2";
-            this.B2.UseVisualStyleBackColor = false;
-            // 
-            // E4
-            // 
-            this.E4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(1)))));
-            this.E4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.E4.Location = new System.Drawing.Point(261, 206);
-            this.E4.Name = "E4";
-            this.E4.Size = new System.Drawing.Size(53, 38);
-            this.E4.TabIndex = 317;
-            this.E4.Text = "4";
-            this.E4.UseVisualStyleBackColor = false;
-            // 
-            // B1
-            // 
-            this.B1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(1)))));
-            this.B1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.B1.Location = new System.Drawing.Point(60, 339);
-            this.B1.Name = "B1";
-            this.B1.Size = new System.Drawing.Size(53, 38);
-            this.B1.TabIndex = 343;
-            this.B1.Text = "1";
-            this.B1.UseVisualStyleBackColor = false;
-            // 
-            // E5
-            // 
-            this.E5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(1)))));
-            this.E5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.E5.Location = new System.Drawing.Point(348, 206);
-            this.E5.Name = "E5";
-            this.E5.Size = new System.Drawing.Size(53, 38);
-            this.E5.TabIndex = 318;
-            this.E5.Text = "5";
-            this.E5.UseVisualStyleBackColor = false;
-            // 
-            // C5
-            // 
-            this.C5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(1)))));
-            this.C5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.C5.Location = new System.Drawing.Point(348, 295);
-            this.C5.Name = "C5";
-            this.C5.Size = new System.Drawing.Size(53, 38);
-            this.C5.TabIndex = 342;
-            this.C5.Text = "5";
-            this.C5.UseVisualStyleBackColor = false;
-            // 
-            // I6
-            // 
-            this.I6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(1)))));
-            this.I6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.I6.Location = new System.Drawing.Point(407, 31);
-            this.I6.Name = "I6";
-            this.I6.Size = new System.Drawing.Size(53, 38);
-            this.I6.TabIndex = 319;
-            this.I6.Text = "6";
-            this.I6.UseVisualStyleBackColor = false;
-            // 
-            // C4
-            // 
-            this.C4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(1)))));
-            this.C4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.C4.Location = new System.Drawing.Point(261, 295);
-            this.C4.Name = "C4";
-            this.C4.Size = new System.Drawing.Size(53, 38);
-            this.C4.TabIndex = 341;
-            this.C4.Text = "4";
-            this.C4.UseVisualStyleBackColor = false;
-            // 
-            // H6
-            // 
-            this.H6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(1)))));
-            this.H6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.H6.Location = new System.Drawing.Point(407, 75);
-            this.H6.Name = "H6";
-            this.H6.Size = new System.Drawing.Size(53, 38);
-            this.H6.TabIndex = 320;
-            this.H6.Text = "6";
-            this.H6.UseVisualStyleBackColor = false;
-            // 
-            // C3
-            // 
-            this.C3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(1)))));
-            this.C3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.C3.Location = new System.Drawing.Point(203, 295);
-            this.C3.Name = "C3";
-            this.C3.Size = new System.Drawing.Size(53, 38);
-            this.C3.TabIndex = 340;
-            this.C3.Text = "3";
-            this.C3.UseVisualStyleBackColor = false;
-            // 
-            // F6
-            // 
-            this.F6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(1)))));
-            this.F6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.F6.Location = new System.Drawing.Point(407, 164);
-            this.F6.Name = "F6";
-            this.F6.Size = new System.Drawing.Size(53, 38);
-            this.F6.TabIndex = 322;
-            this.F6.Text = "6";
-            this.F6.UseVisualStyleBackColor = false;
-            // 
-            // C2
-            // 
-            this.C2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(1)))));
-            this.C2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.C2.Location = new System.Drawing.Point(119, 295);
-            this.C2.Name = "C2";
-            this.C2.Size = new System.Drawing.Size(53, 38);
-            this.C2.TabIndex = 339;
-            this.C2.Text = "2";
-            this.C2.UseVisualStyleBackColor = false;
-            // 
-            // E6
-            // 
-            this.E6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(1)))));
-            this.E6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.E6.Location = new System.Drawing.Point(407, 206);
-            this.E6.Name = "E6";
-            this.E6.Size = new System.Drawing.Size(53, 38);
-            this.E6.TabIndex = 323;
-            this.E6.Text = "6";
-            this.E6.UseVisualStyleBackColor = false;
-            // 
-            // C1
-            // 
-            this.C1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(1)))));
-            this.C1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.C1.Location = new System.Drawing.Point(60, 295);
-            this.C1.Name = "C1";
-            this.C1.Size = new System.Drawing.Size(53, 38);
-            this.C1.TabIndex = 338;
-            this.C1.Text = "1";
-            this.C1.UseVisualStyleBackColor = false;
-            // 
-            // D1
-            // 
-            this.D1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(1)))));
-            this.D1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.D1.Location = new System.Drawing.Point(60, 252);
-            this.D1.Name = "D1";
-            this.D1.Size = new System.Drawing.Size(53, 38);
-            this.D1.TabIndex = 333;
-            this.D1.Text = "1";
-            this.D1.UseVisualStyleBackColor = false;
-            // 
-            // D5
-            // 
-            this.D5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(1)))));
-            this.D5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.D5.Location = new System.Drawing.Point(348, 252);
-            this.D5.Name = "D5";
-            this.D5.Size = new System.Drawing.Size(53, 38);
-            this.D5.TabIndex = 337;
-            this.D5.Text = "5";
-            this.D5.UseVisualStyleBackColor = false;
-            // 
-            // D2
-            // 
-            this.D2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(1)))));
-            this.D2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.D2.Location = new System.Drawing.Point(119, 252);
-            this.D2.Name = "D2";
-            this.D2.Size = new System.Drawing.Size(53, 38);
-            this.D2.TabIndex = 334;
-            this.D2.Text = "2";
-            this.D2.UseVisualStyleBackColor = false;
-            // 
-            // D4
-            // 
-            this.D4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(1)))));
-            this.D4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.D4.Location = new System.Drawing.Point(261, 252);
-            this.D4.Name = "D4";
-            this.D4.Size = new System.Drawing.Size(53, 38);
-            this.D4.TabIndex = 336;
-            this.D4.Text = "4";
-            this.D4.UseVisualStyleBackColor = false;
-            // 
-            // D3
-            // 
-            this.D3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(1)))));
-            this.D3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.D3.Location = new System.Drawing.Point(203, 252);
-            this.D3.Name = "D3";
-            this.D3.Size = new System.Drawing.Size(53, 38);
-            this.D3.TabIndex = 335;
-            this.D3.Text = "3";
-            this.D3.UseVisualStyleBackColor = false;
-            // 
-            // groupBox2
-            // 
-            this.groupBox2.BackColor = System.Drawing.Color.Transparent;
-            this.groupBox2.Controls.Add(this.LblFilmAdi);
-            this.groupBox2.Controls.Add(this.txtFilmAdi);
-            this.groupBox2.Controls.Add(this.button1);
-            this.groupBox2.Controls.Add(this.dateTimePicker1);
-            this.groupBox2.Controls.Add(this.label16);
-            this.groupBox2.Controls.Add(this.txtFiyat);
-            this.groupBox2.Controls.Add(this.Rezervasyon);
-            this.groupBox2.Controls.Add(this.BiletSat);
-            this.groupBox2.Controls.Add(this.label15);
-            this.groupBox2.Controls.Add(this.radioTam);
-            this.groupBox2.Controls.Add(this.radioOgrenci);
-            this.groupBox2.Controls.Add(this.label14);
-            this.groupBox2.Controls.Add(this.comboSeans);
-            this.groupBox2.Controls.Add(this.comboSalon);
-            this.groupBox2.Controls.Add(this.label12);
-            this.groupBox2.Controls.Add(this.label13);
-            this.groupBox2.Controls.Add(this.label6);
-            this.groupBox2.Controls.Add(this.label5);
-            this.groupBox2.Controls.Add(this.txtKoltuk);
-            this.groupBox2.Controls.Add(this.txtAdSoyad);
-            this.groupBox2.ForeColor = System.Drawing.SystemColors.ActiveCaption;
-            this.groupBox2.Location = new System.Drawing.Point(528, 61);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(266, 376);
-            this.groupBox2.TabIndex = 1;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Bilet Satış";
+            // PERDE
+            // 
+            this.PERDE.BackColor = System.Drawing.Color.Gainsboro;
+            this.PERDE.Enabled = false;
+            this.PERDE.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.PERDE.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.PERDE.Location = new System.Drawing.Point(41, 490);
+            this.PERDE.Name = "PERDE";
+            this.PERDE.Size = new System.Drawing.Size(464, 31);
+            this.PERDE.TabIndex = 371;
+            this.PERDE.TabStop = false;
+            this.PERDE.Text = "P E R D E";
+            this.PERDE.UseVisualStyleBackColor = false;
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(583, 523);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(114, 26);
+            this.button3.TabIndex = 370;
+            this.button3.Text = "ÇIKIŞ";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(703, 524);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(114, 26);
+            this.button2.TabIndex = 369;
+            this.button2.Text = "Geri Dönmek İçin Tıklayınız";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // grpBoxBilet_Satis
+            // 
+            this.grpBoxBilet_Satis.BackColor = System.Drawing.Color.Transparent;
+            this.grpBoxBilet_Satis.Controls.Add(this.dateTarih);
+            this.grpBoxBilet_Satis.Controls.Add(this.label15);
+            this.grpBoxBilet_Satis.Controls.Add(this.txtSeans);
+            this.grpBoxBilet_Satis.Controls.Add(this.txtSalonAdi);
+            this.grpBoxBilet_Satis.Controls.Add(this.LblFilmAdi);
+            this.grpBoxBilet_Satis.Controls.Add(this.txtFilmAdi);
+            this.grpBoxBilet_Satis.Controls.Add(this.label16);
+            this.grpBoxBilet_Satis.Controls.Add(this.txtFiyat);
+            this.grpBoxBilet_Satis.Controls.Add(this.Rezervasyon);
+            this.grpBoxBilet_Satis.Controls.Add(this.BiletSat);
+            this.grpBoxBilet_Satis.Controls.Add(this.radioTam);
+            this.grpBoxBilet_Satis.Controls.Add(this.radioOgrenci);
+            this.grpBoxBilet_Satis.Controls.Add(this.label14);
+            this.grpBoxBilet_Satis.Controls.Add(this.label12);
+            this.grpBoxBilet_Satis.Controls.Add(this.label13);
+            this.grpBoxBilet_Satis.Controls.Add(this.label6);
+            this.grpBoxBilet_Satis.Controls.Add(this.label5);
+            this.grpBoxBilet_Satis.Controls.Add(this.txtKoltuk);
+            this.grpBoxBilet_Satis.Controls.Add(this.txtAdSoyad);
+            this.grpBoxBilet_Satis.ForeColor = System.Drawing.SystemColors.ActiveCaption;
+            this.grpBoxBilet_Satis.Location = new System.Drawing.Point(557, 61);
+            this.grpBoxBilet_Satis.Name = "grpBoxBilet_Satis";
+            this.grpBoxBilet_Satis.Size = new System.Drawing.Size(236, 376);
+            this.grpBoxBilet_Satis.TabIndex = 368;
+            this.grpBoxBilet_Satis.TabStop = false;
+            this.grpBoxBilet_Satis.Text = "Bilet Satış";
+            // 
+            // dateTarih
+            // 
+            this.dateTarih.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dateTarih.Location = new System.Drawing.Point(77, 32);
+            this.dateTarih.Name = "dateTarih";
+            this.dateTarih.Size = new System.Drawing.Size(147, 20);
+            this.dateTarih.TabIndex = 34;
+            this.dateTarih.Value = new System.DateTime(2015, 5, 7, 0, 0, 0, 0);
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.BackColor = System.Drawing.Color.Transparent;
+            this.label15.Location = new System.Drawing.Point(21, 34);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(31, 13);
+            this.label15.TabIndex = 32;
+            this.label15.Text = "Tarih";
+            // 
+            // txtSeans
+            // 
+            this.txtSeans.Location = new System.Drawing.Point(79, 119);
+            this.txtSeans.Name = "txtSeans";
+            this.txtSeans.ReadOnly = true;
+            this.txtSeans.Size = new System.Drawing.Size(146, 20);
+            this.txtSeans.TabIndex = 31;
+            // 
+            // txtSalonAdi
+            // 
+            this.txtSalonAdi.Location = new System.Drawing.Point(79, 86);
+            this.txtSalonAdi.Name = "txtSalonAdi";
+            this.txtSalonAdi.ReadOnly = true;
+            this.txtSalonAdi.Size = new System.Drawing.Size(146, 20);
+            this.txtSalonAdi.TabIndex = 30;
             // 
             // LblFilmAdi
             // 
             this.LblFilmAdi.AutoSize = true;
             this.LblFilmAdi.BackColor = System.Drawing.Color.Transparent;
-            this.LblFilmAdi.Location = new System.Drawing.Point(21, 62);
+            this.LblFilmAdi.Location = new System.Drawing.Point(21, 61);
             this.LblFilmAdi.Name = "LblFilmAdi";
             this.LblFilmAdi.Size = new System.Drawing.Size(43, 13);
             this.LblFilmAdi.TabIndex = 29;
@@ -1056,27 +248,11 @@
             // 
             // txtFilmAdi
             // 
-            this.txtFilmAdi.Location = new System.Drawing.Point(91, 59);
+            this.txtFilmAdi.Location = new System.Drawing.Point(79, 58);
             this.txtFilmAdi.Name = "txtFilmAdi";
+            this.txtFilmAdi.ReadOnly = true;
             this.txtFilmAdi.Size = new System.Drawing.Size(146, 20);
             this.txtFilmAdi.TabIndex = 28;
-            // 
-            // button1
-            // 
-            this.button1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button1.Location = new System.Drawing.Point(176, 306);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(79, 56);
-            this.button1.TabIndex = 27;
-            this.button1.Text = "Bilet İptal";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
-            // dateTimePicker1
-            // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(91, 242);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(146, 20);
-            this.dateTimePicker1.TabIndex = 26;
             // 
             // label16
             // 
@@ -1090,97 +266,76 @@
             // 
             // txtFiyat
             // 
-            this.txtFiyat.Location = new System.Drawing.Point(91, 269);
+            this.txtFiyat.Location = new System.Drawing.Point(79, 269);
             this.txtFiyat.Name = "txtFiyat";
             this.txtFiyat.ReadOnly = true;
             this.txtFiyat.Size = new System.Drawing.Size(146, 20);
             this.txtFiyat.TabIndex = 24;
+            this.txtFiyat.Tag = "";
             // 
             // Rezervasyon
             // 
             this.Rezervasyon.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.Rezervasyon.Location = new System.Drawing.Point(91, 306);
+            this.Rezervasyon.Location = new System.Drawing.Point(126, 301);
             this.Rezervasyon.Name = "Rezervasyon";
             this.Rezervasyon.Size = new System.Drawing.Size(79, 56);
             this.Rezervasyon.TabIndex = 23;
             this.Rezervasyon.Text = "Rezervasyon";
             this.Rezervasyon.UseVisualStyleBackColor = true;
+            this.Rezervasyon.Click += new System.EventHandler(this.Rezervasyon_Click);
             // 
             // BiletSat
             // 
             this.BiletSat.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.BiletSat.Location = new System.Drawing.Point(6, 306);
+            this.BiletSat.Location = new System.Drawing.Point(26, 301);
             this.BiletSat.Name = "BiletSat";
             this.BiletSat.Size = new System.Drawing.Size(79, 56);
             this.BiletSat.TabIndex = 22;
             this.BiletSat.Text = "Bilet Sat";
             this.BiletSat.UseVisualStyleBackColor = true;
-            // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.BackColor = System.Drawing.Color.Transparent;
-            this.label15.Location = new System.Drawing.Point(21, 247);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(31, 13);
-            this.label15.TabIndex = 16;
-            this.label15.Text = "Tarih";
+            this.BiletSat.Click += new System.EventHandler(this.BiletSat_Click);
             // 
             // radioTam
             // 
             this.radioTam.AutoSize = true;
             this.radioTam.BackColor = System.Drawing.Color.Transparent;
-            this.radioTam.Location = new System.Drawing.Point(159, 154);
+            this.radioTam.Location = new System.Drawing.Point(146, 151);
             this.radioTam.Name = "radioTam";
             this.radioTam.Size = new System.Drawing.Size(46, 17);
             this.radioTam.TabIndex = 14;
             this.radioTam.TabStop = true;
             this.radioTam.Text = "Tam";
             this.radioTam.UseVisualStyleBackColor = false;
+            this.radioTam.Click += new System.EventHandler(this.radioTam_Click);
             // 
             // radioOgrenci
             // 
             this.radioOgrenci.AutoSize = true;
             this.radioOgrenci.BackColor = System.Drawing.Color.Transparent;
-            this.radioOgrenci.Location = new System.Drawing.Point(91, 154);
+            this.radioOgrenci.Location = new System.Drawing.Point(78, 151);
             this.radioOgrenci.Name = "radioOgrenci";
             this.radioOgrenci.Size = new System.Drawing.Size(62, 17);
             this.radioOgrenci.TabIndex = 13;
             this.radioOgrenci.TabStop = true;
             this.radioOgrenci.Text = "Öğrenci";
             this.radioOgrenci.UseVisualStyleBackColor = false;
+            this.radioOgrenci.Click += new System.EventHandler(this.radioOgrenci_Click);
             // 
             // label14
             // 
             this.label14.AutoSize = true;
             this.label14.BackColor = System.Drawing.Color.Transparent;
-            this.label14.Location = new System.Drawing.Point(21, 156);
+            this.label14.Location = new System.Drawing.Point(20, 153);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(34, 13);
             this.label14.TabIndex = 12;
             this.label14.Text = "Tarife";
             // 
-            // comboSeans
-            // 
-            this.comboSeans.FormattingEnabled = true;
-            this.comboSeans.Location = new System.Drawing.Point(91, 123);
-            this.comboSeans.Name = "comboSeans";
-            this.comboSeans.Size = new System.Drawing.Size(146, 21);
-            this.comboSeans.TabIndex = 11;
-            // 
-            // comboSalon
-            // 
-            this.comboSalon.FormattingEnabled = true;
-            this.comboSalon.Location = new System.Drawing.Point(91, 90);
-            this.comboSalon.Name = "comboSalon";
-            this.comboSalon.Size = new System.Drawing.Size(146, 21);
-            this.comboSalon.TabIndex = 10;
-            // 
             // label12
             // 
             this.label12.AutoSize = true;
             this.label12.BackColor = System.Drawing.Color.Transparent;
-            this.label12.Location = new System.Drawing.Point(21, 192);
+            this.label12.Location = new System.Drawing.Point(21, 225);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(48, 13);
             this.label12.TabIndex = 9;
@@ -1190,7 +345,7 @@
             // 
             this.label13.AutoSize = true;
             this.label13.BackColor = System.Drawing.Color.Transparent;
-            this.label13.Location = new System.Drawing.Point(21, 126);
+            this.label13.Location = new System.Drawing.Point(21, 122);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(37, 13);
             this.label13.TabIndex = 8;
@@ -1200,7 +355,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.BackColor = System.Drawing.Color.Transparent;
-            this.label6.Location = new System.Drawing.Point(21, 93);
+            this.label6.Location = new System.Drawing.Point(21, 89);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(34, 13);
             this.label6.TabIndex = 7;
@@ -1210,7 +365,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.Transparent;
-            this.label5.Location = new System.Drawing.Point(21, 33);
+            this.label5.Location = new System.Drawing.Point(20, 190);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(57, 13);
             this.label5.TabIndex = 6;
@@ -1218,116 +373,982 @@
             // 
             // txtKoltuk
             // 
-            this.txtKoltuk.Location = new System.Drawing.Point(91, 188);
+            this.txtKoltuk.Location = new System.Drawing.Point(79, 221);
             this.txtKoltuk.Multiline = true;
             this.txtKoltuk.Name = "txtKoltuk";
+            this.txtKoltuk.ReadOnly = true;
             this.txtKoltuk.Size = new System.Drawing.Size(146, 40);
             this.txtKoltuk.TabIndex = 5;
             // 
             // txtAdSoyad
             // 
-            this.txtAdSoyad.Location = new System.Drawing.Point(91, 30);
+            this.txtAdSoyad.Location = new System.Drawing.Point(78, 187);
             this.txtAdSoyad.Name = "txtAdSoyad";
             this.txtAdSoyad.Size = new System.Drawing.Size(146, 20);
             this.txtAdSoyad.TabIndex = 2;
             // 
-            // PictureBox1
+            // Bilet_Iptal
             // 
-            this.PictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.PictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("PictureBox1.Image")));
-            this.PictureBox1.Location = new System.Drawing.Point(12, -1);
-            this.PictureBox1.Name = "PictureBox1";
-            this.PictureBox1.Size = new System.Drawing.Size(79, 66);
-            this.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.PictureBox1.TabIndex = 8;
-            this.PictureBox1.TabStop = false;
+            this.Bilet_Iptal.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.Bilet_Iptal.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.Bilet_Iptal.Location = new System.Drawing.Point(43, 47);
+            this.Bilet_Iptal.Name = "Bilet_Iptal";
+            this.Bilet_Iptal.Size = new System.Drawing.Size(78, 26);
+            this.Bilet_Iptal.TabIndex = 27;
+            this.Bilet_Iptal.Text = "Bilet İptal";
+            this.Bilet_Iptal.UseVisualStyleBackColor = true;
+            this.Bilet_Iptal.Click += new System.EventHandler(this.Bilet_Iptal_Click_1);
             // 
-            // button2
+            // groupBox1
             // 
-            this.button2.Location = new System.Drawing.Point(704, 483);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(114, 41);
-            this.button2.TabIndex = 9;
-            this.button2.Text = "Geri Dönmek İçin Tıklayınız";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.groupBox1.BackColor = System.Drawing.Color.Transparent;
+            this.groupBox1.Controls.Add(this.label26);
+            this.groupBox1.Controls.Add(this.label27);
+            this.groupBox1.Controls.Add(this.label18);
+            this.groupBox1.Controls.Add(this.label19);
+            this.groupBox1.Controls.Add(this.label1);
+            this.groupBox1.Controls.Add(this.label20);
+            this.groupBox1.Controls.Add(this.label2);
+            this.groupBox1.Controls.Add(this.label3);
+            this.groupBox1.Controls.Add(this.label4);
+            this.groupBox1.Controls.Add(this.label17);
+            this.groupBox1.Controls.Add(this.label21);
+            this.groupBox1.Controls.Add(this.Label24);
+            this.groupBox1.Controls.Add(this.Label25);
+            this.groupBox1.Controls.Add(this.Label7);
+            this.groupBox1.Controls.Add(this.label23);
+            this.groupBox1.Controls.Add(this.Label8);
+            this.groupBox1.Controls.Add(this.label22);
+            this.groupBox1.Controls.Add(this.Label9);
+            this.groupBox1.Controls.Add(this.Label10);
+            this.groupBox1.Controls.Add(this.Label11);
+            this.groupBox1.Controls.Add(this.btn49);
+            this.groupBox1.Controls.Add(this.btn42);
+            this.groupBox1.Controls.Add(this.btn47);
+            this.groupBox1.Controls.Add(this.btn35);
+            this.groupBox1.Controls.Add(this.btn46);
+            this.groupBox1.Controls.Add(this.btn41);
+            this.groupBox1.Controls.Add(this.btn45);
+            this.groupBox1.Controls.Add(this.btn28);
+            this.groupBox1.Controls.Add(this.btn44);
+            this.groupBox1.Controls.Add(this.btn43);
+            this.groupBox1.Controls.Add(this.btn40);
+            this.groupBox1.Controls.Add(this.btn48);
+            this.groupBox1.Controls.Add(this.btn34);
+            this.groupBox1.Controls.Add(this.btn39);
+            this.groupBox1.Controls.Add(this.btn21);
+            this.groupBox1.Controls.Add(this.btn38);
+            this.groupBox1.Controls.Add(this.btn33);
+            this.groupBox1.Controls.Add(this.btn37);
+            this.groupBox1.Controls.Add(this.btn36);
+            this.groupBox1.Controls.Add(this.btn27);
+            this.groupBox1.Controls.Add(this.btn32);
+            this.groupBox1.Controls.Add(this.btn14);
+            this.groupBox1.Controls.Add(this.btn31);
+            this.groupBox1.Controls.Add(this.btn26);
+            this.groupBox1.Controls.Add(this.btn30);
+            this.groupBox1.Controls.Add(this.btn29);
+            this.groupBox1.Controls.Add(this.btn20);
+            this.groupBox1.Controls.Add(this.btn25);
+            this.groupBox1.Controls.Add(this.btn13);
+            this.groupBox1.Controls.Add(this.btn23);
+            this.groupBox1.Controls.Add(this.btn22);
+            this.groupBox1.Controls.Add(this.btn19);
+            this.groupBox1.Controls.Add(this.btn24);
+            this.groupBox1.Controls.Add(this.btn7);
+            this.groupBox1.Controls.Add(this.btn18);
+            this.groupBox1.Controls.Add(this.btn11);
+            this.groupBox1.Controls.Add(this.btn17);
+            this.groupBox1.Controls.Add(this.btn6);
+            this.groupBox1.Controls.Add(this.btn16);
+            this.groupBox1.Controls.Add(this.btn15);
+            this.groupBox1.Controls.Add(this.btn10);
+            this.groupBox1.Controls.Add(this.btn5);
+            this.groupBox1.Controls.Add(this.btn9);
+            this.groupBox1.Controls.Add(this.btn4);
+            this.groupBox1.Controls.Add(this.btn8);
+            this.groupBox1.Controls.Add(this.btn3);
+            this.groupBox1.Controls.Add(this.btn12);
+            this.groupBox1.Controls.Add(this.btn2);
+            this.groupBox1.Controls.Add(this.btn1);
+            this.groupBox1.Font = new System.Drawing.Font("Trebuchet MS", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.groupBox1.Location = new System.Drawing.Point(12, 61);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(524, 422);
+            this.groupBox1.TabIndex = 372;
+            this.groupBox1.TabStop = false;
             // 
-            // LblFilmAdı
+            // label26
             // 
-            this.LblFilmAdı.AutoSize = true;
-            this.LblFilmAdı.BackColor = System.Drawing.Color.Transparent;
-            this.LblFilmAdı.Font = new System.Drawing.Font("Kristen ITC", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblFilmAdı.ForeColor = System.Drawing.SystemColors.ActiveCaption;
-            this.LblFilmAdı.Location = new System.Drawing.Point(98, 9);
-            this.LblFilmAdı.Name = "LblFilmAdı";
-            this.LblFilmAdı.Size = new System.Drawing.Size(156, 40);
-            this.LblFilmAdı.TabIndex = 10;
-            this.LblFilmAdı.Text = "Film Adı :";
+            this.label26.AutoSize = true;
+            this.label26.Location = new System.Drawing.Point(454, 16);
+            this.label26.Name = "label26";
+            this.label26.Size = new System.Drawing.Size(60, 16);
+            this.label26.TabIndex = 377;
+            this.label26.Text = ": Rezerve";
+            // 
+            // label27
+            // 
+            this.label27.BackColor = System.Drawing.Color.Pink;
+            this.label27.Location = new System.Drawing.Point(428, 14);
+            this.label27.Name = "label27";
+            this.label27.Size = new System.Drawing.Size(20, 20);
+            this.label27.TabIndex = 376;
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.BackColor = System.Drawing.Color.Transparent;
+            this.label18.Font = new System.Drawing.Font("Trebuchet MS", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label18.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label18.Location = new System.Drawing.Point(13, 368);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(22, 24);
+            this.label18.TabIndex = 378;
+            this.label18.Text = "A";
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.BackColor = System.Drawing.Color.Transparent;
+            this.label19.Font = new System.Drawing.Font("Trebuchet MS", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label19.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label19.Location = new System.Drawing.Point(14, 315);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(21, 24);
+            this.label19.TabIndex = 377;
+            this.label19.Text = "B";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Trebuchet MS", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label1.Location = new System.Drawing.Point(13, 111);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(21, 24);
+            this.label1.TabIndex = 376;
+            this.label1.Text = "F";
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Location = new System.Drawing.Point(382, 16);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(39, 16);
+            this.label20.TabIndex = 51;
+            this.label20.Text = ": Dolu";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.Font = new System.Drawing.Font("Trebuchet MS", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label2.Location = new System.Drawing.Point(10, 55);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(23, 24);
+            this.label2.TabIndex = 375;
+            this.label2.Text = "G";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.Transparent;
+            this.label3.Font = new System.Drawing.Font("Trebuchet MS", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label3.Location = new System.Drawing.Point(13, 266);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(22, 24);
+            this.label3.TabIndex = 374;
+            this.label3.Text = "C";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.Transparent;
+            this.label4.Font = new System.Drawing.Font("Trebuchet MS", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label4.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label4.Location = new System.Drawing.Point(11, 215);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(22, 24);
+            this.label4.TabIndex = 373;
+            this.label4.Text = "D";
             // 
             // label17
             // 
             this.label17.AutoSize = true;
             this.label17.BackColor = System.Drawing.Color.Transparent;
-            this.label17.Font = new System.Drawing.Font("Kristen ITC", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label17.ForeColor = System.Drawing.SystemColors.ActiveCaption;
-            this.label17.Location = new System.Drawing.Point(244, 9);
+            this.label17.Font = new System.Drawing.Font("Trebuchet MS", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label17.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label17.Location = new System.Drawing.Point(11, 161);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(138, 40);
-            this.label17.TabIndex = 11;
-            this.label17.Text = "Film Adı";
+            this.label17.Size = new System.Drawing.Size(21, 24);
+            this.label17.TabIndex = 372;
+            this.label17.Text = "E";
             // 
-            // SaatGosterici
+            // label21
             // 
-            this.SaatGosterici.Tick += new System.EventHandler(this.SaatGosterici_Tick);
+            this.label21.AutoSize = true;
+            this.label21.Location = new System.Drawing.Point(315, 16);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(34, 16);
+            this.label21.TabIndex = 50;
+            this.label21.Text = ": Boş";
             // 
-            // LblSaat
+            // Label24
             // 
-            this.LblSaat.AutoSize = true;
-            this.LblSaat.BackColor = System.Drawing.Color.Transparent;
-            this.LblSaat.Font = new System.Drawing.Font("Kristen ITC", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblSaat.ForeColor = System.Drawing.SystemColors.ActiveCaption;
-            this.LblSaat.Location = new System.Drawing.Point(681, 9);
-            this.LblSaat.Name = "LblSaat";
-            this.LblSaat.Size = new System.Drawing.Size(0, 40);
-            this.LblSaat.TabIndex = 12;
+            this.Label24.AutoSize = true;
+            this.Label24.BackColor = System.Drawing.Color.Transparent;
+            this.Label24.Font = new System.Drawing.Font("Trebuchet MS", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.Label24.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.Label24.Location = new System.Drawing.Point(491, 117);
+            this.Label24.Name = "Label24";
+            this.Label24.Size = new System.Drawing.Size(21, 24);
+            this.Label24.TabIndex = 371;
+            this.Label24.Text = "F";
             // 
-            // button3
+            // Label25
             // 
-            this.button3.Location = new System.Drawing.Point(584, 482);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(114, 41);
-            this.button3.TabIndex = 13;
-            this.button3.Text = "ÇIKIŞ";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.Label25.AutoSize = true;
+            this.Label25.BackColor = System.Drawing.Color.Transparent;
+            this.Label25.Font = new System.Drawing.Font("Trebuchet MS", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.Label25.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.Label25.Location = new System.Drawing.Point(488, 61);
+            this.Label25.Name = "Label25";
+            this.Label25.Size = new System.Drawing.Size(23, 24);
+            this.Label25.TabIndex = 370;
+            this.Label25.Text = "G";
+            // 
+            // Label7
+            // 
+            this.Label7.AutoSize = true;
+            this.Label7.BackColor = System.Drawing.Color.Transparent;
+            this.Label7.Font = new System.Drawing.Font("Trebuchet MS", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.Label7.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.Label7.Location = new System.Drawing.Point(490, 376);
+            this.Label7.Name = "Label7";
+            this.Label7.Size = new System.Drawing.Size(22, 24);
+            this.Label7.TabIndex = 369;
+            this.Label7.Text = "A";
+            // 
+            // label23
+            // 
+            this.label23.BackColor = System.Drawing.Color.Lime;
+            this.label23.Location = new System.Drawing.Point(290, 14);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(20, 20);
+            this.label23.TabIndex = 48;
+            // 
+            // Label8
+            // 
+            this.Label8.AutoSize = true;
+            this.Label8.BackColor = System.Drawing.Color.Transparent;
+            this.Label8.Font = new System.Drawing.Font("Trebuchet MS", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.Label8.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.Label8.Location = new System.Drawing.Point(491, 323);
+            this.Label8.Name = "Label8";
+            this.Label8.Size = new System.Drawing.Size(21, 24);
+            this.Label8.TabIndex = 368;
+            this.Label8.Text = "B";
+            // 
+            // label22
+            // 
+            this.label22.BackColor = System.Drawing.Color.Red;
+            this.label22.Location = new System.Drawing.Point(356, 14);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(20, 20);
+            this.label22.TabIndex = 49;
+            // 
+            // Label9
+            // 
+            this.Label9.AutoSize = true;
+            this.Label9.BackColor = System.Drawing.Color.Transparent;
+            this.Label9.Font = new System.Drawing.Font("Trebuchet MS", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.Label9.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.Label9.Location = new System.Drawing.Point(491, 272);
+            this.Label9.Name = "Label9";
+            this.Label9.Size = new System.Drawing.Size(22, 24);
+            this.Label9.TabIndex = 367;
+            this.Label9.Text = "C";
+            // 
+            // Label10
+            // 
+            this.Label10.AutoSize = true;
+            this.Label10.BackColor = System.Drawing.Color.Transparent;
+            this.Label10.Font = new System.Drawing.Font("Trebuchet MS", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.Label10.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.Label10.Location = new System.Drawing.Point(489, 221);
+            this.Label10.Name = "Label10";
+            this.Label10.Size = new System.Drawing.Size(22, 24);
+            this.Label10.TabIndex = 366;
+            this.Label10.Text = "D";
+            // 
+            // Label11
+            // 
+            this.Label11.AutoSize = true;
+            this.Label11.BackColor = System.Drawing.Color.Transparent;
+            this.Label11.Font = new System.Drawing.Font("Trebuchet MS", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.Label11.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.Label11.Location = new System.Drawing.Point(489, 167);
+            this.Label11.Name = "Label11";
+            this.Label11.Size = new System.Drawing.Size(21, 24);
+            this.Label11.TabIndex = 365;
+            this.Label11.Text = "E";
+            // 
+            // btn49
+            // 
+            this.btn49.BackColor = System.Drawing.Color.Lime;
+            this.btn49.Location = new System.Drawing.Point(436, 367);
+            this.btn49.Name = "btn49";
+            this.btn49.Size = new System.Drawing.Size(45, 45);
+            this.btn49.TabIndex = 27;
+            this.btn49.Text = "49";
+            this.btn49.UseVisualStyleBackColor = false;
+            this.btn49.Click += new System.EventHandler(this.btnKoltuk_Click);
+            // 
+            // btn42
+            // 
+            this.btn42.BackColor = System.Drawing.Color.Lime;
+            this.btn42.Location = new System.Drawing.Point(435, 310);
+            this.btn42.Name = "btn42";
+            this.btn42.Size = new System.Drawing.Size(45, 45);
+            this.btn42.TabIndex = 22;
+            this.btn42.Text = "42";
+            this.btn42.UseVisualStyleBackColor = false;
+            this.btn42.Click += new System.EventHandler(this.btnKoltuk_Click);
+            // 
+            // btn47
+            // 
+            this.btn47.BackColor = System.Drawing.Color.Lime;
+            this.btn47.Location = new System.Drawing.Point(305, 367);
+            this.btn47.Name = "btn47";
+            this.btn47.Size = new System.Drawing.Size(45, 45);
+            this.btn47.TabIndex = 26;
+            this.btn47.Text = "47";
+            this.btn47.UseVisualStyleBackColor = false;
+            this.btn47.Click += new System.EventHandler(this.btnKoltuk_Click);
+            // 
+            // btn35
+            // 
+            this.btn35.BackColor = System.Drawing.Color.Lime;
+            this.btn35.Location = new System.Drawing.Point(435, 259);
+            this.btn35.Name = "btn35";
+            this.btn35.Size = new System.Drawing.Size(45, 45);
+            this.btn35.TabIndex = 27;
+            this.btn35.Text = "35";
+            this.btn35.UseVisualStyleBackColor = false;
+            this.btn35.Click += new System.EventHandler(this.btnKoltuk_Click);
+            // 
+            // btn46
+            // 
+            this.btn46.BackColor = System.Drawing.Color.Lime;
+            this.btn46.Location = new System.Drawing.Point(239, 367);
+            this.btn46.Name = "btn46";
+            this.btn46.Size = new System.Drawing.Size(45, 45);
+            this.btn46.TabIndex = 25;
+            this.btn46.Text = "46";
+            this.btn46.UseVisualStyleBackColor = false;
+            this.btn46.Click += new System.EventHandler(this.btnKoltuk_Click);
+            // 
+            // btn41
+            // 
+            this.btn41.BackColor = System.Drawing.Color.Lime;
+            this.btn41.Location = new System.Drawing.Point(369, 310);
+            this.btn41.Name = "btn41";
+            this.btn41.Size = new System.Drawing.Size(45, 45);
+            this.btn41.TabIndex = 21;
+            this.btn41.Text = "41";
+            this.btn41.UseVisualStyleBackColor = false;
+            this.btn41.Click += new System.EventHandler(this.btnKoltuk_Click);
+            // 
+            // btn45
+            // 
+            this.btn45.BackColor = System.Drawing.Color.Lime;
+            this.btn45.Location = new System.Drawing.Point(173, 367);
+            this.btn45.Name = "btn45";
+            this.btn45.Size = new System.Drawing.Size(45, 45);
+            this.btn45.TabIndex = 24;
+            this.btn45.Text = "45";
+            this.btn45.UseVisualStyleBackColor = false;
+            this.btn45.Click += new System.EventHandler(this.btnKoltuk_Click);
+            // 
+            // btn28
+            // 
+            this.btn28.BackColor = System.Drawing.Color.Lime;
+            this.btn28.Location = new System.Drawing.Point(435, 208);
+            this.btn28.Name = "btn28";
+            this.btn28.Size = new System.Drawing.Size(45, 45);
+            this.btn28.TabIndex = 27;
+            this.btn28.Text = "28";
+            this.btn28.UseVisualStyleBackColor = false;
+            this.btn28.Click += new System.EventHandler(this.btnKoltuk_Click);
+            // 
+            // btn44
+            // 
+            this.btn44.BackColor = System.Drawing.Color.Lime;
+            this.btn44.Location = new System.Drawing.Point(107, 367);
+            this.btn44.Name = "btn44";
+            this.btn44.Size = new System.Drawing.Size(45, 45);
+            this.btn44.TabIndex = 22;
+            this.btn44.Text = "44";
+            this.btn44.UseVisualStyleBackColor = false;
+            this.btn44.Click += new System.EventHandler(this.btnKoltuk_Click);
+            // 
+            // btn43
+            // 
+            this.btn43.BackColor = System.Drawing.Color.Lime;
+            this.btn43.Location = new System.Drawing.Point(41, 367);
+            this.btn43.Name = "btn43";
+            this.btn43.Size = new System.Drawing.Size(45, 45);
+            this.btn43.TabIndex = 23;
+            this.btn43.Text = "43";
+            this.btn43.UseVisualStyleBackColor = false;
+            this.btn43.Click += new System.EventHandler(this.btnKoltuk_Click);
+            // 
+            // btn40
+            // 
+            this.btn40.BackColor = System.Drawing.Color.Lime;
+            this.btn40.Location = new System.Drawing.Point(303, 310);
+            this.btn40.Name = "btn40";
+            this.btn40.Size = new System.Drawing.Size(45, 45);
+            this.btn40.TabIndex = 20;
+            this.btn40.Text = "40";
+            this.btn40.UseVisualStyleBackColor = false;
+            this.btn40.Click += new System.EventHandler(this.btnKoltuk_Click);
+            // 
+            // btn48
+            // 
+            this.btn48.BackColor = System.Drawing.Color.Lime;
+            this.btn48.Location = new System.Drawing.Point(371, 367);
+            this.btn48.Name = "btn48";
+            this.btn48.Size = new System.Drawing.Size(45, 45);
+            this.btn48.TabIndex = 21;
+            this.btn48.Text = "48";
+            this.btn48.UseVisualStyleBackColor = false;
+            this.btn48.Click += new System.EventHandler(this.btnKoltuk_Click);
+            // 
+            // btn34
+            // 
+            this.btn34.BackColor = System.Drawing.Color.Lime;
+            this.btn34.Location = new System.Drawing.Point(369, 259);
+            this.btn34.Name = "btn34";
+            this.btn34.Size = new System.Drawing.Size(45, 45);
+            this.btn34.TabIndex = 26;
+            this.btn34.Text = "34";
+            this.btn34.UseVisualStyleBackColor = false;
+            this.btn34.Click += new System.EventHandler(this.btnKoltuk_Click);
+            // 
+            // btn39
+            // 
+            this.btn39.BackColor = System.Drawing.Color.Lime;
+            this.btn39.Location = new System.Drawing.Point(237, 310);
+            this.btn39.Name = "btn39";
+            this.btn39.Size = new System.Drawing.Size(45, 45);
+            this.btn39.TabIndex = 19;
+            this.btn39.Text = "39";
+            this.btn39.UseVisualStyleBackColor = false;
+            this.btn39.Click += new System.EventHandler(this.btnKoltuk_Click);
+            // 
+            // btn21
+            // 
+            this.btn21.BackColor = System.Drawing.Color.Lime;
+            this.btn21.Location = new System.Drawing.Point(435, 154);
+            this.btn21.Name = "btn21";
+            this.btn21.Size = new System.Drawing.Size(45, 45);
+            this.btn21.TabIndex = 25;
+            this.btn21.Text = "21";
+            this.btn21.UseVisualStyleBackColor = false;
+            this.btn21.Click += new System.EventHandler(this.btnKoltuk_Click);
+            // 
+            // btn38
+            // 
+            this.btn38.BackColor = System.Drawing.Color.Lime;
+            this.btn38.Location = new System.Drawing.Point(171, 310);
+            this.btn38.Name = "btn38";
+            this.btn38.Size = new System.Drawing.Size(45, 45);
+            this.btn38.TabIndex = 18;
+            this.btn38.Text = "38";
+            this.btn38.UseVisualStyleBackColor = false;
+            this.btn38.Click += new System.EventHandler(this.btnKoltuk_Click);
+            // 
+            // btn33
+            // 
+            this.btn33.BackColor = System.Drawing.Color.Lime;
+            this.btn33.Location = new System.Drawing.Point(303, 259);
+            this.btn33.Name = "btn33";
+            this.btn33.Size = new System.Drawing.Size(45, 45);
+            this.btn33.TabIndex = 25;
+            this.btn33.Text = "33";
+            this.btn33.UseVisualStyleBackColor = false;
+            this.btn33.Click += new System.EventHandler(this.btnKoltuk_Click);
+            // 
+            // btn37
+            // 
+            this.btn37.BackColor = System.Drawing.Color.Lime;
+            this.btn37.Location = new System.Drawing.Point(105, 310);
+            this.btn37.Name = "btn37";
+            this.btn37.Size = new System.Drawing.Size(45, 45);
+            this.btn37.TabIndex = 17;
+            this.btn37.Text = "37";
+            this.btn37.UseVisualStyleBackColor = false;
+            this.btn37.Click += new System.EventHandler(this.btnKoltuk_Click);
+            // 
+            // btn36
+            // 
+            this.btn36.BackColor = System.Drawing.Color.Lime;
+            this.btn36.Location = new System.Drawing.Point(41, 310);
+            this.btn36.Name = "btn36";
+            this.btn36.Size = new System.Drawing.Size(45, 45);
+            this.btn36.TabIndex = 11;
+            this.btn36.Text = "36";
+            this.btn36.UseVisualStyleBackColor = false;
+            this.btn36.Click += new System.EventHandler(this.btnKoltuk_Click);
+            // 
+            // btn27
+            // 
+            this.btn27.BackColor = System.Drawing.Color.Lime;
+            this.btn27.Location = new System.Drawing.Point(369, 208);
+            this.btn27.Name = "btn27";
+            this.btn27.Size = new System.Drawing.Size(45, 45);
+            this.btn27.TabIndex = 26;
+            this.btn27.Text = "27";
+            this.btn27.UseVisualStyleBackColor = false;
+            this.btn27.Click += new System.EventHandler(this.btnKoltuk_Click);
+            // 
+            // btn32
+            // 
+            this.btn32.BackColor = System.Drawing.Color.Lime;
+            this.btn32.Location = new System.Drawing.Point(237, 259);
+            this.btn32.Name = "btn32";
+            this.btn32.Size = new System.Drawing.Size(45, 45);
+            this.btn32.TabIndex = 21;
+            this.btn32.Text = "32";
+            this.btn32.UseVisualStyleBackColor = false;
+            this.btn32.Click += new System.EventHandler(this.btnKoltuk_Click);
+            // 
+            // btn14
+            // 
+            this.btn14.BackColor = System.Drawing.Color.Lime;
+            this.btn14.Location = new System.Drawing.Point(433, 104);
+            this.btn14.Name = "btn14";
+            this.btn14.Size = new System.Drawing.Size(45, 45);
+            this.btn14.TabIndex = 27;
+            this.btn14.Text = "14";
+            this.btn14.UseVisualStyleBackColor = false;
+            this.btn14.Click += new System.EventHandler(this.btnKoltuk_Click);
+            // 
+            // btn31
+            // 
+            this.btn31.BackColor = System.Drawing.Color.Lime;
+            this.btn31.Location = new System.Drawing.Point(171, 259);
+            this.btn31.Name = "btn31";
+            this.btn31.Size = new System.Drawing.Size(45, 45);
+            this.btn31.TabIndex = 24;
+            this.btn31.Text = "31";
+            this.btn31.UseVisualStyleBackColor = false;
+            this.btn31.Click += new System.EventHandler(this.btnKoltuk_Click);
+            // 
+            // btn26
+            // 
+            this.btn26.BackColor = System.Drawing.Color.Lime;
+            this.btn26.Location = new System.Drawing.Point(303, 208);
+            this.btn26.Name = "btn26";
+            this.btn26.Size = new System.Drawing.Size(45, 45);
+            this.btn26.TabIndex = 25;
+            this.btn26.Text = "26";
+            this.btn26.UseVisualStyleBackColor = false;
+            this.btn26.Click += new System.EventHandler(this.btnKoltuk_Click);
+            // 
+            // btn30
+            // 
+            this.btn30.BackColor = System.Drawing.Color.Lime;
+            this.btn30.Location = new System.Drawing.Point(105, 259);
+            this.btn30.Name = "btn30";
+            this.btn30.Size = new System.Drawing.Size(45, 45);
+            this.btn30.TabIndex = 23;
+            this.btn30.Text = "30";
+            this.btn30.UseVisualStyleBackColor = false;
+            this.btn30.Click += new System.EventHandler(this.btnKoltuk_Click);
+            // 
+            // btn29
+            // 
+            this.btn29.BackColor = System.Drawing.Color.Lime;
+            this.btn29.Location = new System.Drawing.Point(39, 259);
+            this.btn29.Name = "btn29";
+            this.btn29.Size = new System.Drawing.Size(45, 45);
+            this.btn29.TabIndex = 22;
+            this.btn29.Text = "29";
+            this.btn29.UseVisualStyleBackColor = false;
+            this.btn29.Click += new System.EventHandler(this.btnKoltuk_Click);
+            // 
+            // btn20
+            // 
+            this.btn20.BackColor = System.Drawing.Color.Lime;
+            this.btn20.Location = new System.Drawing.Point(369, 154);
+            this.btn20.Name = "btn20";
+            this.btn20.Size = new System.Drawing.Size(45, 45);
+            this.btn20.TabIndex = 19;
+            this.btn20.Text = "20";
+            this.btn20.UseVisualStyleBackColor = false;
+            this.btn20.Click += new System.EventHandler(this.btnKoltuk_Click);
+            // 
+            // btn25
+            // 
+            this.btn25.BackColor = System.Drawing.Color.Lime;
+            this.btn25.Location = new System.Drawing.Point(237, 208);
+            this.btn25.Name = "btn25";
+            this.btn25.Size = new System.Drawing.Size(45, 45);
+            this.btn25.TabIndex = 24;
+            this.btn25.Text = "25";
+            this.btn25.UseVisualStyleBackColor = false;
+            this.btn25.Click += new System.EventHandler(this.btnKoltuk_Click);
+            // 
+            // btn13
+            // 
+            this.btn13.BackColor = System.Drawing.Color.Lime;
+            this.btn13.Location = new System.Drawing.Point(367, 104);
+            this.btn13.Name = "btn13";
+            this.btn13.Size = new System.Drawing.Size(45, 45);
+            this.btn13.TabIndex = 26;
+            this.btn13.Text = "13";
+            this.btn13.UseVisualStyleBackColor = false;
+            this.btn13.Click += new System.EventHandler(this.btnKoltuk_Click);
+            // 
+            // btn23
+            // 
+            this.btn23.BackColor = System.Drawing.Color.Lime;
+            this.btn23.Location = new System.Drawing.Point(105, 208);
+            this.btn23.Name = "btn23";
+            this.btn23.Size = new System.Drawing.Size(45, 45);
+            this.btn23.TabIndex = 23;
+            this.btn23.Text = "23";
+            this.btn23.UseVisualStyleBackColor = false;
+            this.btn23.Click += new System.EventHandler(this.btnKoltuk_Click);
+            // 
+            // btn22
+            // 
+            this.btn22.BackColor = System.Drawing.Color.Lime;
+            this.btn22.Location = new System.Drawing.Point(39, 208);
+            this.btn22.Name = "btn22";
+            this.btn22.Size = new System.Drawing.Size(45, 45);
+            this.btn22.TabIndex = 22;
+            this.btn22.Text = "22";
+            this.btn22.UseVisualStyleBackColor = false;
+            this.btn22.Click += new System.EventHandler(this.btnKoltuk_Click);
+            // 
+            // btn19
+            // 
+            this.btn19.BackColor = System.Drawing.Color.Lime;
+            this.btn19.Location = new System.Drawing.Point(303, 154);
+            this.btn19.Name = "btn19";
+            this.btn19.Size = new System.Drawing.Size(45, 45);
+            this.btn19.TabIndex = 24;
+            this.btn19.Text = "19";
+            this.btn19.UseVisualStyleBackColor = false;
+            this.btn19.Click += new System.EventHandler(this.btnKoltuk_Click);
+            // 
+            // btn24
+            // 
+            this.btn24.BackColor = System.Drawing.Color.Lime;
+            this.btn24.Location = new System.Drawing.Point(171, 208);
+            this.btn24.Name = "btn24";
+            this.btn24.Size = new System.Drawing.Size(45, 45);
+            this.btn24.TabIndex = 21;
+            this.btn24.Text = "24";
+            this.btn24.UseVisualStyleBackColor = false;
+            this.btn24.Click += new System.EventHandler(this.btnKoltuk_Click);
+            // 
+            // btn7
+            // 
+            this.btn7.BackColor = System.Drawing.Color.Lime;
+            this.btn7.Location = new System.Drawing.Point(433, 48);
+            this.btn7.Name = "btn7";
+            this.btn7.Size = new System.Drawing.Size(45, 45);
+            this.btn7.TabIndex = 17;
+            this.btn7.Text = "7";
+            this.btn7.UseVisualStyleBackColor = false;
+            this.btn7.Click += new System.EventHandler(this.btnKoltuk_Click);
+            // 
+            // btn18
+            // 
+            this.btn18.BackColor = System.Drawing.Color.Lime;
+            this.btn18.Location = new System.Drawing.Point(237, 154);
+            this.btn18.Name = "btn18";
+            this.btn18.Size = new System.Drawing.Size(45, 45);
+            this.btn18.TabIndex = 23;
+            this.btn18.Text = "18";
+            this.btn18.UseVisualStyleBackColor = false;
+            this.btn18.Click += new System.EventHandler(this.btnKoltuk_Click);
+            // 
+            // btn11
+            // 
+            this.btn11.BackColor = System.Drawing.Color.Lime;
+            this.btn11.Location = new System.Drawing.Point(237, 103);
+            this.btn11.Name = "btn11";
+            this.btn11.Size = new System.Drawing.Size(45, 45);
+            this.btn11.TabIndex = 25;
+            this.btn11.Text = "11";
+            this.btn11.UseVisualStyleBackColor = false;
+            this.btn11.Click += new System.EventHandler(this.btnKoltuk_Click);
+            // 
+            // btn17
+            // 
+            this.btn17.BackColor = System.Drawing.Color.Lime;
+            this.btn17.Location = new System.Drawing.Point(171, 154);
+            this.btn17.Name = "btn17";
+            this.btn17.Size = new System.Drawing.Size(45, 45);
+            this.btn17.TabIndex = 22;
+            this.btn17.Text = "17";
+            this.btn17.UseVisualStyleBackColor = false;
+            this.btn17.Click += new System.EventHandler(this.btnKoltuk_Click);
+            // 
+            // btn6
+            // 
+            this.btn6.BackColor = System.Drawing.Color.Lime;
+            this.btn6.Location = new System.Drawing.Point(367, 48);
+            this.btn6.Name = "btn6";
+            this.btn6.Size = new System.Drawing.Size(45, 45);
+            this.btn6.TabIndex = 16;
+            this.btn6.Text = "6";
+            this.btn6.UseVisualStyleBackColor = false;
+            this.btn6.Click += new System.EventHandler(this.btnKoltuk_Click);
+            // 
+            // btn16
+            // 
+            this.btn16.BackColor = System.Drawing.Color.Lime;
+            this.btn16.Location = new System.Drawing.Point(105, 154);
+            this.btn16.Name = "btn16";
+            this.btn16.Size = new System.Drawing.Size(45, 45);
+            this.btn16.TabIndex = 21;
+            this.btn16.Text = "16";
+            this.btn16.UseVisualStyleBackColor = false;
+            this.btn16.Click += new System.EventHandler(this.btnKoltuk_Click);
+            // 
+            // btn15
+            // 
+            this.btn15.BackColor = System.Drawing.Color.Lime;
+            this.btn15.Location = new System.Drawing.Point(39, 154);
+            this.btn15.Name = "btn15";
+            this.btn15.Size = new System.Drawing.Size(45, 45);
+            this.btn15.TabIndex = 20;
+            this.btn15.Text = "15";
+            this.btn15.UseVisualStyleBackColor = false;
+            this.btn15.Click += new System.EventHandler(this.btnKoltuk_Click);
+            // 
+            // btn10
+            // 
+            this.btn10.BackColor = System.Drawing.Color.Lime;
+            this.btn10.Location = new System.Drawing.Point(171, 103);
+            this.btn10.Name = "btn10";
+            this.btn10.Size = new System.Drawing.Size(45, 45);
+            this.btn10.TabIndex = 24;
+            this.btn10.Text = "10";
+            this.btn10.UseVisualStyleBackColor = false;
+            this.btn10.Click += new System.EventHandler(this.btnKoltuk_Click);
+            // 
+            // btn5
+            // 
+            this.btn5.BackColor = System.Drawing.Color.Lime;
+            this.btn5.Location = new System.Drawing.Point(301, 48);
+            this.btn5.Name = "btn5";
+            this.btn5.Size = new System.Drawing.Size(45, 45);
+            this.btn5.TabIndex = 15;
+            this.btn5.Text = "5";
+            this.btn5.UseVisualStyleBackColor = false;
+            this.btn5.Click += new System.EventHandler(this.btnKoltuk_Click);
+            // 
+            // btn9
+            // 
+            this.btn9.BackColor = System.Drawing.Color.Lime;
+            this.btn9.Location = new System.Drawing.Point(105, 103);
+            this.btn9.Name = "btn9";
+            this.btn9.Size = new System.Drawing.Size(45, 45);
+            this.btn9.TabIndex = 23;
+            this.btn9.Text = "9";
+            this.btn9.UseVisualStyleBackColor = false;
+            this.btn9.Click += new System.EventHandler(this.btnKoltuk_Click);
+            // 
+            // btn4
+            // 
+            this.btn4.BackColor = System.Drawing.Color.Lime;
+            this.btn4.Location = new System.Drawing.Point(235, 48);
+            this.btn4.Name = "btn4";
+            this.btn4.Size = new System.Drawing.Size(45, 45);
+            this.btn4.TabIndex = 14;
+            this.btn4.Text = "4";
+            this.btn4.UseVisualStyleBackColor = false;
+            this.btn4.Click += new System.EventHandler(this.btnKoltuk_Click);
+            // 
+            // btn8
+            // 
+            this.btn8.BackColor = System.Drawing.Color.Lime;
+            this.btn8.Location = new System.Drawing.Point(39, 103);
+            this.btn8.Name = "btn8";
+            this.btn8.Size = new System.Drawing.Size(45, 45);
+            this.btn8.TabIndex = 22;
+            this.btn8.Text = "8";
+            this.btn8.UseVisualStyleBackColor = false;
+            this.btn8.Click += new System.EventHandler(this.btnKoltuk_Click);
+            // 
+            // btn3
+            // 
+            this.btn3.BackColor = System.Drawing.Color.Lime;
+            this.btn3.Location = new System.Drawing.Point(169, 48);
+            this.btn3.Name = "btn3";
+            this.btn3.Size = new System.Drawing.Size(45, 45);
+            this.btn3.TabIndex = 13;
+            this.btn3.Text = "3";
+            this.btn3.UseVisualStyleBackColor = false;
+            this.btn3.Click += new System.EventHandler(this.btnKoltuk_Click);
+            // 
+            // btn12
+            // 
+            this.btn12.BackColor = System.Drawing.Color.Lime;
+            this.btn12.Location = new System.Drawing.Point(303, 103);
+            this.btn12.Name = "btn12";
+            this.btn12.Size = new System.Drawing.Size(45, 45);
+            this.btn12.TabIndex = 21;
+            this.btn12.Text = "12";
+            this.btn12.UseVisualStyleBackColor = false;
+            this.btn12.Click += new System.EventHandler(this.btnKoltuk_Click);
+            // 
+            // btn2
+            // 
+            this.btn2.BackColor = System.Drawing.Color.Lime;
+            this.btn2.Location = new System.Drawing.Point(103, 48);
+            this.btn2.Name = "btn2";
+            this.btn2.Size = new System.Drawing.Size(45, 45);
+            this.btn2.TabIndex = 12;
+            this.btn2.Text = "2";
+            this.btn2.UseVisualStyleBackColor = false;
+            this.btn2.Click += new System.EventHandler(this.btnKoltuk_Click);
+            // 
+            // btn1
+            // 
+            this.btn1.BackColor = System.Drawing.Color.Lime;
+            this.btn1.Location = new System.Drawing.Point(37, 48);
+            this.btn1.Name = "btn1";
+            this.btn1.Size = new System.Drawing.Size(45, 45);
+            this.btn1.TabIndex = 11;
+            this.btn1.Text = "1";
+            this.btn1.UseVisualStyleBackColor = false;
+            this.btn1.Click += new System.EventHandler(this.btnKoltuk_Click);
+            // 
+            // txtKoltukIptal
+            // 
+            this.txtKoltukIptal.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.txtKoltukIptal.Location = new System.Drawing.Point(79, 20);
+            this.txtKoltukIptal.Multiline = true;
+            this.txtKoltukIptal.Name = "txtKoltukIptal";
+            this.txtKoltukIptal.Size = new System.Drawing.Size(146, 20);
+            this.txtKoltukIptal.TabIndex = 32;
+            // 
+            // lblSaat
+            // 
+            this.lblSaat.AutoSize = true;
+            this.lblSaat.BackColor = System.Drawing.Color.Transparent;
+            this.lblSaat.Font = new System.Drawing.Font("Kristen ITC", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSaat.ForeColor = System.Drawing.SystemColors.ActiveCaption;
+            this.lblSaat.Location = new System.Drawing.Point(649, 28);
+            this.lblSaat.Name = "lblSaat";
+            this.lblSaat.Size = new System.Drawing.Size(50, 23);
+            this.lblSaat.TabIndex = 374;
+            this.lblSaat.Text = "Saat";
+            // 
+            // Saat_Gosterici
+            // 
+            this.Saat_Gosterici.Tick += new System.EventHandler(this.Saat_Gosterici_Tick);
+            // 
+            // groupBox2
+            // 
+            this.groupBox2.BackColor = System.Drawing.Color.Transparent;
+            this.groupBox2.Controls.Add(this.rezerve_iptal);
+            this.groupBox2.Controls.Add(this.label28);
+            this.groupBox2.Controls.Add(this.txtKoltukIptal);
+            this.groupBox2.Controls.Add(this.Bilet_Iptal);
+            this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.groupBox2.ForeColor = System.Drawing.SystemColors.ActiveCaption;
+            this.groupBox2.Location = new System.Drawing.Point(556, 438);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(237, 79);
+            this.groupBox2.TabIndex = 375;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "Bilet Sil";
+            // 
+            // rezerve_iptal
+            // 
+            this.rezerve_iptal.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.rezerve_iptal.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.rezerve_iptal.Location = new System.Drawing.Point(127, 47);
+            this.rezerve_iptal.Name = "rezerve_iptal";
+            this.rezerve_iptal.Size = new System.Drawing.Size(78, 26);
+            this.rezerve_iptal.TabIndex = 34;
+            this.rezerve_iptal.Text = "Rezerve İptal";
+            this.rezerve_iptal.UseVisualStyleBackColor = true;
+            this.rezerve_iptal.Click += new System.EventHandler(this.rezerve_iptal_Click);
+            // 
+            // label28
+            // 
+            this.label28.AutoSize = true;
+            this.label28.BackColor = System.Drawing.Color.Transparent;
+            this.label28.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label28.Location = new System.Drawing.Point(10, 23);
+            this.label28.Name = "label28";
+            this.label28.Size = new System.Drawing.Size(57, 13);
+            this.label28.TabIndex = 33;
+            this.label28.Text = "Koltuk No:";
+            // 
+            // label29
+            // 
+            this.label29.AutoSize = true;
+            this.label29.BackColor = System.Drawing.Color.Transparent;
+            this.label29.Font = new System.Drawing.Font("Kristen ITC", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label29.ForeColor = System.Drawing.Color.Gold;
+            this.label29.Location = new System.Drawing.Point(190, 7);
+            this.label29.Name = "label29";
+            this.label29.Size = new System.Drawing.Size(417, 51);
+            this.label29.TabIndex = 376;
+            this.label29.Text = "Alkan Sinema Salonu";
+            this.label29.Click += new System.EventHandler(this.label29_Click);
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(23, 12);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(113, 23);
+            this.button1.TabIndex = 377;
+            this.button1.Text = "Rezerve Kontrol";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // BiletSatis
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.DarkSeaGreen;
-            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackColor = System.Drawing.SystemColors.WindowFrame;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1001, 535);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.LblSaat);
-            this.Controls.Add(this.label17);
-            this.Controls.Add(this.LblFilmAdı);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.PictureBox1);
+            this.ClientSize = new System.Drawing.Size(837, 556);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.label29);
             this.Controls.Add(this.groupBox2);
+            this.Controls.Add(this.lblSaat);
             this.Controls.Add(this.groupBox1);
-            this.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.MaximizeBox = false;
-            this.MinimizeBox = false;
+            this.Controls.Add(this.PERDE);
+            this.Controls.Add(this.button3);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.grpBoxBilet_Satis);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "BiletSatis";
-            this.Text = "Bilet Satışı";
+            this.Text = "BiletSatis";
             this.Load += new System.EventHandler(this.BiletSatis_Load);
+            this.grpBoxBilet_Satis.ResumeLayout(false);
+            this.grpBoxBilet_Satis.PerformLayout();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.PictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1335,106 +1356,107 @@
 
         #endregion
 
-        private System.Windows.Forms.GroupBox groupBox1;
-        internal System.Windows.Forms.Button G6;
-        internal System.Windows.Forms.Button I1;
-        internal System.Windows.Forms.Button I2;
-        private System.Windows.Forms.Button button71;
-        internal System.Windows.Forms.Button I3;
-        internal System.Windows.Forms.Label Label24;
-        internal System.Windows.Forms.Button I4;
-        internal System.Windows.Forms.Label Label25;
-        internal System.Windows.Forms.Button I5;
-        internal System.Windows.Forms.Label Label26;
-        internal System.Windows.Forms.Button H1;
-        internal System.Windows.Forms.Label Label27;
-        internal System.Windows.Forms.Button H2;
-        internal System.Windows.Forms.Label Label7;
-        internal System.Windows.Forms.Label Label20;
-        internal System.Windows.Forms.Label Label8;
-        internal System.Windows.Forms.Button H3;
-        internal System.Windows.Forms.Label Label9;
-        internal System.Windows.Forms.Label Label21;
-        internal System.Windows.Forms.Label Label10;
-        internal System.Windows.Forms.Button H4;
-        internal System.Windows.Forms.Label Label11;
-        internal System.Windows.Forms.Label Label22;
-        internal System.Windows.Forms.Button H5;
-        internal System.Windows.Forms.Label Label23;
-        internal System.Windows.Forms.Button G1;
-        internal System.Windows.Forms.Button A6;
-        internal System.Windows.Forms.Button G2;
-        internal System.Windows.Forms.Button A3;
-        internal System.Windows.Forms.Button G3;
-        internal System.Windows.Forms.Button B6;
-        internal System.Windows.Forms.Button G4;
-        internal System.Windows.Forms.Label Label4;
-        internal System.Windows.Forms.Button A1;
-        internal System.Windows.Forms.Label Label3;
-        internal System.Windows.Forms.Button G5;
-        internal System.Windows.Forms.Label Label2;
-        internal System.Windows.Forms.Button C6;
-        internal System.Windows.Forms.Label Label1;
-        internal System.Windows.Forms.Button F1;
-        internal System.Windows.Forms.Button A2;
-        internal System.Windows.Forms.Button F2;
-        internal System.Windows.Forms.Button D6;
-        internal System.Windows.Forms.Button F3;
-        internal System.Windows.Forms.Button A4;
-        internal System.Windows.Forms.Button F4;
-        internal System.Windows.Forms.Button B5;
-        internal System.Windows.Forms.Button F5;
-        internal System.Windows.Forms.Button A5;
-        internal System.Windows.Forms.Button E1;
-        internal System.Windows.Forms.Button B4;
-        internal System.Windows.Forms.Button E2;
-        internal System.Windows.Forms.Button B3;
-        internal System.Windows.Forms.Button E3;
-        internal System.Windows.Forms.Button B2;
-        internal System.Windows.Forms.Button E4;
-        internal System.Windows.Forms.Button B1;
-        internal System.Windows.Forms.Button E5;
-        internal System.Windows.Forms.Button C5;
-        internal System.Windows.Forms.Button I6;
-        internal System.Windows.Forms.Button C4;
-        internal System.Windows.Forms.Button H6;
-        internal System.Windows.Forms.Button C3;
-        internal System.Windows.Forms.Button F6;
-        internal System.Windows.Forms.Button C2;
-        internal System.Windows.Forms.Button E6;
-        internal System.Windows.Forms.Button C1;
-        internal System.Windows.Forms.Button D1;
-        internal System.Windows.Forms.Button D5;
-        internal System.Windows.Forms.Button D2;
-        internal System.Windows.Forms.Button D4;
-        internal System.Windows.Forms.Button D3;
-        private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.Button PERDE;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.GroupBox grpBoxBilet_Satis;
+        private System.Windows.Forms.TextBox txtSalonAdi;
+        private System.Windows.Forms.Label LblFilmAdi;
+        private System.Windows.Forms.TextBox txtFilmAdi;
+        private System.Windows.Forms.Button Bilet_Iptal;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.TextBox txtFiyat;
         private System.Windows.Forms.Button Rezervasyon;
         private System.Windows.Forms.Button BiletSat;
-        private System.Windows.Forms.Label label15;
         private System.Windows.Forms.RadioButton radioTam;
         private System.Windows.Forms.RadioButton radioOgrenci;
         private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.ComboBox comboSeans;
-        private System.Windows.Forms.ComboBox comboSalon;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox txtKoltuk;
         private System.Windows.Forms.TextBox txtAdSoyad;
-        internal System.Windows.Forms.PictureBox PictureBox1;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.TextBox txtSeans;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.Button btn7;
+        private System.Windows.Forms.Button btn6;
+        private System.Windows.Forms.Button btn5;
+        private System.Windows.Forms.Button btn4;
+        private System.Windows.Forms.Button btn3;
+        private System.Windows.Forms.Button btn2;
+        private System.Windows.Forms.Button btn1;
+        private System.Windows.Forms.Button btn14;
+        private System.Windows.Forms.Button btn13;
+        private System.Windows.Forms.Button btn11;
+        private System.Windows.Forms.Button btn10;
+        private System.Windows.Forms.Button btn9;
+        private System.Windows.Forms.Button btn8;
+        private System.Windows.Forms.Button btn12;
+        private System.Windows.Forms.Button btn21;
+        private System.Windows.Forms.Button btn20;
+        private System.Windows.Forms.Button btn19;
+        private System.Windows.Forms.Button btn18;
+        private System.Windows.Forms.Button btn17;
+        private System.Windows.Forms.Button btn16;
+        private System.Windows.Forms.Button btn15;
+        private System.Windows.Forms.Button btn28;
+        private System.Windows.Forms.Button btn27;
+        private System.Windows.Forms.Button btn26;
+        private System.Windows.Forms.Button btn25;
+        private System.Windows.Forms.Button btn23;
+        private System.Windows.Forms.Button btn22;
+        private System.Windows.Forms.Button btn24;
+        private System.Windows.Forms.Button btn35;
+        private System.Windows.Forms.Button btn34;
+        private System.Windows.Forms.Button btn33;
+        private System.Windows.Forms.Button btn32;
+        private System.Windows.Forms.Button btn31;
+        private System.Windows.Forms.Button btn30;
+        private System.Windows.Forms.Button btn29;
+        private System.Windows.Forms.Button btn42;
+        private System.Windows.Forms.Button btn41;
+        private System.Windows.Forms.Button btn40;
+        private System.Windows.Forms.Button btn39;
+        private System.Windows.Forms.Button btn38;
+        private System.Windows.Forms.Button btn37;
+        private System.Windows.Forms.Button btn36;
+        private System.Windows.Forms.Button btn49;
+        private System.Windows.Forms.Button btn47;
+        private System.Windows.Forms.Button btn46;
+        private System.Windows.Forms.Button btn45;
+        private System.Windows.Forms.Button btn44;
+        private System.Windows.Forms.Button btn43;
+        private System.Windows.Forms.Button btn48;
+        private System.Windows.Forms.TextBox txtKoltukIptal;
+        private System.Windows.Forms.Label lblSaat;
+        private System.Windows.Forms.Timer Saat_Gosterici;
+        internal System.Windows.Forms.Label label18;
+        internal System.Windows.Forms.Label label19;
+        internal System.Windows.Forms.Label label1;
+        internal System.Windows.Forms.Label label2;
+        internal System.Windows.Forms.Label label3;
+        internal System.Windows.Forms.Label label4;
+        internal System.Windows.Forms.Label label17;
+        internal System.Windows.Forms.Label Label24;
+        internal System.Windows.Forms.Label Label25;
+        internal System.Windows.Forms.Label Label7;
+        internal System.Windows.Forms.Label Label8;
+        internal System.Windows.Forms.Label Label9;
+        internal System.Windows.Forms.Label Label10;
+        internal System.Windows.Forms.Label Label11;
+        private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.Label label26;
+        private System.Windows.Forms.Label label27;
+        private System.Windows.Forms.Label label20;
+        private System.Windows.Forms.Label label21;
+        private System.Windows.Forms.Label label23;
+        private System.Windows.Forms.Label label22;
+        private System.Windows.Forms.Label label28;
+        private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.Label label29;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Label LblFilmAdı;
-        private System.Windows.Forms.Label LblFilmAdi;
-        private System.Windows.Forms.TextBox txtFilmAdi;
-        private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.Timer SaatGosterici;
-        private System.Windows.Forms.Label LblSaat;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.DateTimePicker dateTarih;
+        private System.Windows.Forms.Button rezerve_iptal;
     }
 }

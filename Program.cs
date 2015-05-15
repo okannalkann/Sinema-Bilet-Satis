@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Windows.Forms;
 
-namespace sinema_bilet_satisi_EN_SON
+namespace Sinema_Bilet_Satis
 {
     static class Program
     {
@@ -15,7 +15,7 @@ namespace sinema_bilet_satisi_EN_SON
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Baslangıc_Formu());
+            Application.Run(new Baslangic_Formu());
         }
     }
 }
